@@ -1,0 +1,106 @@
+http://ns.artroninnovative.co.th:8002/api/factory/1/dashboard/lossTime
+ 
+//ภายใน Body raw
+{
+    "page":1,
+    "perPage":30,
+    "startDate":"2024-12-15",
+    "endDate":"2024-12-15",
+    "ids":[2]
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ //Response Api
+
+ {
+    "status": "SUCCESS",
+    "result": [
+        {
+            "id": 2,
+            "factoryId": 1,
+            "name": "L002",
+            "breakdown": [
+                {
+                    "id": [
+                        1
+                    ],
+                    "key": "Setting",
+                    "count": 30,
+                    "percent": 6.25
+                },
+                {
+                    "id": [
+                        5,
+                        6,
+                        7,
+                        8,
+                        9
+                    ],
+                    "key": "Human loss",
+                    "count": 0,
+                    "percent": 0
+                },
+                {
+                    "id": [
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25
+                    ],
+                    "key": "Machine loss",
+                    "count": 0,
+                    "percent": 0
+                },
+                {
+                    "id": [
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35
+                    ],
+                    "key": "Tooling loss",
+                    "count": 0,
+                    "percent": 0
+                },
+                {
+                    "id": [
+                        2,
+                        3,
+                        4
+                    ],
+                    "key": "Other loss",
+                    "count": 89,
+                    "percent": 18.541666666666668
+                }
+            ],
+            "plannedProductionTime": 480,
+            "totalBreakdown": 119,
+            "percent": 24.791666666666668
+        }
+    ],
+    "pagination": {
+        "page": 1,
+        "perPage": 30,
+        "totalCount": 1,
+        "totalPages": 1
+    }
+}
+
