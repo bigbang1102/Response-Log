@@ -1,0 +1,2582 @@
+// http: //ns.artroninnovative.co.th:8002/api/factory/1/report/getQualityLossTimeReport
+// "date": "2024-12-15",
+// "ids": [1]
+// method:post
+{
+    "status": "SUCCESS",
+    "result": [
+        {
+            "day": 1,
+            "currentDate": "2024-12-01T00:00:00.000Z",
+            "date": "Sun Dec 01 2024 07:00:00 GMT+0700",
+            "data": [
+                {
+                    "lineId": 1,
+                    "name": "L001",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 2,
+                    "name": "L002",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 3,
+                    "name": "L003",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 4,
+                    "name": "L004",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                }
+            ]
+        },
+        {
+            "day": 2,
+            "currentDate": "2024-12-02T00:00:00.000Z",
+            "date": "Mon Dec 02 2024 07:00:00 GMT+0700",
+            "data": [
+                {
+                    "lineId": 1,
+                    "name": "L001",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 2,
+                    "name": "L002",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 3,
+                    "name": "L003",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 4,
+                    "name": "L004",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                }
+            ]
+        },
+        {
+            "day": 3,
+            "currentDate": "2024-12-03T00:00:00.000Z",
+            "date": "Tue Dec 03 2024 07:00:00 GMT+0700",
+            "data": [
+                {
+                    "lineId": 1,
+                    "name": "L001",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 2,
+                    "name": "L002",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 3,
+                    "name": "L003",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 4,
+                    "name": "L004",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                }
+            ]
+        },
+        {
+            "day": 4,
+            "currentDate": "2024-12-04T00:00:00.000Z",
+            "date": "Wed Dec 04 2024 07:00:00 GMT+0700",
+            "data": [
+                {
+                    "lineId": 1,
+                    "name": "L001",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 2,
+                    "name": "L002",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 3,
+                    "name": "L003",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 4,
+                    "name": "L004",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                }
+            ]
+        },
+        {
+            "day": 5,
+            "currentDate": "2024-12-05T00:00:00.000Z",
+            "date": "Thu Dec 05 2024 07:00:00 GMT+0700",
+            "data": [
+                {
+                    "lineId": 1,
+                    "name": "L001",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 2,
+                    "name": "L002",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 3,
+                    "name": "L003",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 4,
+                    "name": "L004",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                }
+            ]
+        },
+        {
+            "day": 6,
+            "currentDate": "2024-12-06T00:00:00.000Z",
+            "date": "Fri Dec 06 2024 07:00:00 GMT+0700",
+            "data": [
+                {
+                    "lineId": 1,
+                    "name": "L001",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 2,
+                    "name": "L002",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 3,
+                    "name": "L003",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 4,
+                    "name": "L004",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                }
+            ]
+        },
+        {
+            "day": 7,
+            "currentDate": "2024-12-07T00:00:00.000Z",
+            "date": "Sat Dec 07 2024 07:00:00 GMT+0700",
+            "data": [
+                {
+                    "lineId": 1,
+                    "name": "L001",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 2,
+                    "name": "L002",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 3,
+                    "name": "L003",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 4,
+                    "name": "L004",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                }
+            ]
+        },
+        {
+            "day": 8,
+            "currentDate": "2024-12-08T00:00:00.000Z",
+            "date": "Sun Dec 08 2024 07:00:00 GMT+0700",
+            "data": [
+                {
+                    "lineId": 1,
+                    "name": "L001",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 2,
+                    "name": "L002",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 3,
+                    "name": "L003",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 4,
+                    "name": "L004",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                }
+            ]
+        },
+        {
+            "day": 9,
+            "currentDate": "2024-12-09T00:00:00.000Z",
+            "date": "Mon Dec 09 2024 07:00:00 GMT+0700",
+            "data": [
+                {
+                    "lineId": 2,
+                    "name": "L002",
+                    "quality": {
+                        "lotSize": 6240,
+                        "outPut": 10110,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 100
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 90,
+                        "shiftTime": 540,
+                        "breakTime": 60,
+                        "plannedProductionTime": 480,
+                        "downtime": 5,
+                        "availability": 98.95833333333333
+                    }
+                },
+                {
+                    "lineId": 1,
+                    "name": "L001",
+                    "quality": {
+                        "lotSize": 8640,
+                        "outPut": 1584,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 100
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 60,
+                        "shiftTime": 540,
+                        "breakTime": 60,
+                        "plannedProductionTime": 480,
+                        "downtime": 5,
+                        "availability": 98.95833333333333
+                    }
+                },
+                {
+                    "lineId": 3,
+                    "name": "L003",
+                    "quality": {
+                        "lotSize": 8160,
+                        "outPut": 7650,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 100
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 540,
+                        "breakTime": 60,
+                        "plannedProductionTime": 480,
+                        "downtime": 5,
+                        "availability": 98.95833333333333
+                    }
+                },
+                {
+                    "lineId": 4,
+                    "name": "L004",
+                    "quality": {
+                        "lotSize": 14400,
+                        "outPut": 13200,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 100
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 10,
+                        "shiftTime": 540,
+                        "breakTime": 60,
+                        "plannedProductionTime": 480,
+                        "downtime": 0,
+                        "availability": 100
+                    }
+                }
+            ]
+        },
+        {
+            "day": 10,
+            "currentDate": "2024-12-10T00:00:00.000Z",
+            "date": "Tue Dec 10 2024 07:00:00 GMT+0700",
+            "data": [
+                {
+                    "lineId": 4,
+                    "name": "L004",
+                    "quality": {
+                        "lotSize": 14400,
+                        "outPut": 13200,
+                        "totalDefect": 10,
+                        "defectPercent": 0.07575757575757576,
+                        "goodPercent": 99.92424242424242
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 9,
+                        "shiftTime": 540,
+                        "breakTime": 60,
+                        "plannedProductionTime": 480,
+                        "downtime": 0,
+                        "availability": 100
+                    }
+                },
+                {
+                    "lineId": 1,
+                    "name": "L001",
+                    "quality": {
+                        "lotSize": 8640,
+                        "outPut": 1618,
+                        "totalDefect": 9,
+                        "defectPercent": 0.5562422744128553,
+                        "goodPercent": 99.44375772558715
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 60,
+                        "shiftTime": 540,
+                        "breakTime": 60,
+                        "plannedProductionTime": 480,
+                        "downtime": 5,
+                        "availability": 98.95833333333333
+                    }
+                },
+                {
+                    "lineId": 3,
+                    "name": "L003",
+                    "quality": {
+                        "lotSize": 8160,
+                        "outPut": 7650,
+                        "totalDefect": 20,
+                        "defectPercent": 0.26143790849673204,
+                        "goodPercent": 99.73856209150327
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 540,
+                        "breakTime": 60,
+                        "plannedProductionTime": 480,
+                        "downtime": 5,
+                        "availability": 98.95833333333333
+                    }
+                },
+                {
+                    "lineId": 2,
+                    "name": "L002",
+                    "quality": {
+                        "lotSize": 6240,
+                        "outPut": 10141,
+                        "totalDefect": 13,
+                        "defectPercent": 0.12819248594813135,
+                        "goodPercent": 99.87180751405187
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 90,
+                        "shiftTime": 540,
+                        "breakTime": 60,
+                        "plannedProductionTime": 480,
+                        "downtime": 5,
+                        "availability": 98.95833333333333
+                    }
+                }
+            ]
+        },
+        {
+            "day": 11,
+            "currentDate": "2024-12-11T00:00:00.000Z",
+            "date": "Wed Dec 11 2024 07:00:00 GMT+0700",
+            "data": [
+                {
+                    "lineId": 1,
+                    "name": "L001",
+                    "quality": {
+                        "lotSize": 8640,
+                        "outPut": 1560,
+                        "totalDefect": 9,
+                        "defectPercent": 0.5769230769230769,
+                        "goodPercent": 99.42307692307692
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 540,
+                        "breakTime": 60,
+                        "plannedProductionTime": 480,
+                        "downtime": 5,
+                        "availability": 98.95833333333333
+                    }
+                },
+                {
+                    "lineId": 3,
+                    "name": "L003",
+                    "quality": {
+                        "lotSize": 8160,
+                        "outPut": 7650,
+                        "totalDefect": 20,
+                        "defectPercent": 0.26143790849673204,
+                        "goodPercent": 99.73856209150327
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 540,
+                        "breakTime": 60,
+                        "plannedProductionTime": 480,
+                        "downtime": 5,
+                        "availability": 98.95833333333333
+                    }
+                },
+                {
+                    "lineId": 2,
+                    "name": "L002",
+                    "quality": {
+                        "lotSize": 4790,
+                        "outPut": 10047,
+                        "totalDefect": 13,
+                        "defectPercent": 0.1293918582661491,
+                        "goodPercent": 99.87060814173385
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 167,
+                        "shiftTime": 539,
+                        "breakTime": 60,
+                        "plannedProductionTime": 1018,
+                        "downtime": 5,
+                        "availability": 99.50884086444007
+                    }
+                },
+                {
+                    "lineId": 4,
+                    "name": "L004",
+                    "quality": {
+                        "lotSize": 14400,
+                        "outPut": 13200,
+                        "totalDefect": 10,
+                        "defectPercent": 0.07575757575757576,
+                        "goodPercent": 99.92424242424242
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 10,
+                        "shiftTime": 540,
+                        "breakTime": 60,
+                        "plannedProductionTime": 480,
+                        "downtime": 0,
+                        "availability": 100
+                    }
+                }
+            ]
+        },
+        {
+            "day": 12,
+            "currentDate": "2024-12-12T00:00:00.000Z",
+            "date": "Thu Dec 12 2024 07:00:00 GMT+0700",
+            "data": [
+                {
+                    "lineId": 2,
+                    "name": "L002",
+                    "quality": {
+                        "lotSize": 6240,
+                        "outPut": 10116,
+                        "totalDefect": 13,
+                        "defectPercent": 0.12850929221035984,
+                        "goodPercent": 99.87149070778965
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 90,
+                        "shiftTime": 540,
+                        "breakTime": 60,
+                        "plannedProductionTime": 480,
+                        "downtime": 5,
+                        "availability": 98.95833333333333
+                    }
+                },
+                {
+                    "lineId": 1,
+                    "name": "L001",
+                    "quality": {
+                        "lotSize": 8640,
+                        "outPut": 1546,
+                        "totalDefect": 9,
+                        "defectPercent": 0.5821474773609314,
+                        "goodPercent": 99.41785252263907
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 60,
+                        "shiftTime": 540,
+                        "breakTime": 60,
+                        "plannedProductionTime": 480,
+                        "downtime": 5,
+                        "availability": 98.95833333333333
+                    }
+                },
+                {
+                    "lineId": 4,
+                    "name": "L004",
+                    "quality": {
+                        "lotSize": 14400,
+                        "outPut": 13200,
+                        "totalDefect": 20,
+                        "defectPercent": 0.15151515151515152,
+                        "goodPercent": 99.84848484848484
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 9,
+                        "shiftTime": 540,
+                        "breakTime": 60,
+                        "plannedProductionTime": 480,
+                        "downtime": 0,
+                        "availability": 100
+                    }
+                },
+                {
+                    "lineId": 3,
+                    "name": "L003",
+                    "quality": {
+                        "lotSize": 4790,
+                        "outPut": 7650,
+                        "totalDefect": 10,
+                        "defectPercent": 0.13071895424836602,
+                        "goodPercent": 99.86928104575163
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 539,
+                        "breakTime": 60,
+                        "plannedProductionTime": 1018,
+                        "downtime": 5,
+                        "availability": 99.50884086444007
+                    }
+                }
+            ]
+        },
+        {
+            "day": 13,
+            "currentDate": "2024-12-13T00:00:00.000Z",
+            "date": "Fri Dec 13 2024 07:00:00 GMT+0700",
+            "data": [
+                {
+                    "lineId": 4,
+                    "name": "L004",
+                    "quality": {
+                        "lotSize": 14400,
+                        "outPut": 13200,
+                        "totalDefect": 20,
+                        "defectPercent": 0.15151515151515152,
+                        "goodPercent": 99.84848484848484
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 10,
+                        "shiftTime": 540,
+                        "breakTime": 60,
+                        "plannedProductionTime": 480,
+                        "downtime": 0,
+                        "availability": 100
+                    }
+                },
+                {
+                    "lineId": 2,
+                    "name": "L002",
+                    "quality": {
+                        "lotSize": 6240,
+                        "outPut": 10108,
+                        "totalDefect": 13,
+                        "defectPercent": 0.12861100118717847,
+                        "goodPercent": 99.87138899881282
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 90,
+                        "shiftTime": 540,
+                        "breakTime": 60,
+                        "plannedProductionTime": 480,
+                        "downtime": 5,
+                        "availability": 98.95833333333333
+                    }
+                },
+                {
+                    "lineId": 3,
+                    "name": "L003",
+                    "quality": {
+                        "lotSize": 8160,
+                        "outPut": 7650,
+                        "totalDefect": 10,
+                        "defectPercent": 0.13071895424836602,
+                        "goodPercent": 99.86928104575163
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 540,
+                        "breakTime": 60,
+                        "plannedProductionTime": 480,
+                        "downtime": 5,
+                        "availability": 98.95833333333333
+                    }
+                },
+                {
+                    "lineId": 1,
+                    "name": "L001",
+                    "quality": {
+                        "lotSize": 8640,
+                        "outPut": 1560,
+                        "totalDefect": 9,
+                        "defectPercent": 0.5769230769230769,
+                        "goodPercent": 99.42307692307692
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 59,
+                        "shiftTime": 540,
+                        "breakTime": 60,
+                        "plannedProductionTime": 480,
+                        "downtime": 5,
+                        "availability": 98.95833333333333
+                    }
+                }
+            ]
+        },
+        {
+            "day": 14,
+            "currentDate": "2024-12-14T00:00:00.000Z",
+            "date": "Sat Dec 14 2024 07:00:00 GMT+0700",
+            "data": [
+                {
+                    "lineId": 1,
+                    "name": "L001",
+                    "quality": {
+                        "lotSize": 8640,
+                        "outPut": 1588,
+                        "totalDefect": 9,
+                        "defectPercent": 0.5667506297229219,
+                        "goodPercent": 99.43324937027708
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 59,
+                        "shiftTime": 540,
+                        "breakTime": 60,
+                        "plannedProductionTime": 480,
+                        "downtime": 5,
+                        "availability": 98.95833333333333
+                    }
+                },
+                {
+                    "lineId": 3,
+                    "name": "L003",
+                    "quality": {
+                        "lotSize": 8160,
+                        "outPut": 7650,
+                        "totalDefect": 10,
+                        "defectPercent": 0.13071895424836602,
+                        "goodPercent": 99.86928104575163
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 540,
+                        "breakTime": 60,
+                        "plannedProductionTime": 480,
+                        "downtime": 5,
+                        "availability": 98.95833333333333
+                    }
+                },
+                {
+                    "lineId": 2,
+                    "name": "L002",
+                    "quality": {
+                        "lotSize": 6240,
+                        "outPut": 10074,
+                        "totalDefect": 13,
+                        "defectPercent": 0.12904506650784198,
+                        "goodPercent": 99.87095493349216
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 90,
+                        "shiftTime": 540,
+                        "breakTime": 60,
+                        "plannedProductionTime": 480,
+                        "downtime": 5,
+                        "availability": 98.95833333333333
+                    }
+                },
+                {
+                    "lineId": 4,
+                    "name": "L004",
+                    "quality": {
+                        "lotSize": 14400,
+                        "outPut": 13200,
+                        "totalDefect": 20,
+                        "defectPercent": 0.15151515151515152,
+                        "goodPercent": 99.84848484848484
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 10,
+                        "shiftTime": 540,
+                        "breakTime": 60,
+                        "plannedProductionTime": 480,
+                        "downtime": 0,
+                        "availability": 100
+                    }
+                }
+            ]
+        },
+        {
+            "day": 15,
+            "currentDate": "2024-12-15T00:00:00.000Z",
+            "date": "Sun Dec 15 2024 07:00:00 GMT+0700",
+            "data": [
+                {
+                    "lineId": 3,
+                    "name": "L003",
+                    "quality": {
+                        "lotSize": 8160,
+                        "outPut": 7650,
+                        "totalDefect": 10,
+                        "defectPercent": 0.13071895424836602,
+                        "goodPercent": 99.86928104575163
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 540,
+                        "breakTime": 60,
+                        "plannedProductionTime": 480,
+                        "downtime": 5,
+                        "availability": 98.95833333333333
+                    }
+                },
+                {
+                    "lineId": 2,
+                    "name": "L002",
+                    "quality": {
+                        "lotSize": 6240,
+                        "outPut": 10080,
+                        "totalDefect": 13,
+                        "defectPercent": 0.12896825396825398,
+                        "goodPercent": 99.87103174603175
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 89,
+                        "shiftTime": 540,
+                        "breakTime": 60,
+                        "plannedProductionTime": 480,
+                        "downtime": 5,
+                        "availability": 98.95833333333333
+                    }
+                },
+                {
+                    "lineId": 4,
+                    "name": "L004",
+                    "quality": {
+                        "lotSize": 14400,
+                        "outPut": 13200,
+                        "totalDefect": 20,
+                        "defectPercent": 0.15151515151515152,
+                        "goodPercent": 99.84848484848484
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 10,
+                        "shiftTime": 540,
+                        "breakTime": 60,
+                        "plannedProductionTime": 480,
+                        "downtime": 0,
+                        "availability": 100
+                    }
+                },
+                {
+                    "lineId": 1,
+                    "name": "L001",
+                    "quality": {
+                        "lotSize": 8640,
+                        "outPut": 1576,
+                        "totalDefect": 9,
+                        "defectPercent": 0.5710659898477157,
+                        "goodPercent": 99.42893401015229
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 59,
+                        "shiftTime": 540,
+                        "breakTime": 60,
+                        "plannedProductionTime": 480,
+                        "downtime": 5,
+                        "availability": 98.95833333333333
+                    }
+                }
+            ]
+        },
+        {
+            "day": 16,
+            "currentDate": "2024-12-16T00:00:00.000Z",
+            "date": "Mon Dec 16 2024 07:00:00 GMT+0700",
+            "data": [
+                {
+                    "lineId": 3,
+                    "name": "L003",
+                    "quality": {
+                        "lotSize": 8160,
+                        "outPut": 1409,
+                        "totalDefect": 10,
+                        "defectPercent": 0.7097232079489,
+                        "goodPercent": 99.2902767920511
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 540,
+                        "breakTime": 60,
+                        "plannedProductionTime": 480,
+                        "downtime": 4.833333333333333,
+                        "availability": 98.99305555555557
+                    }
+                },
+                {
+                    "lineId": 4,
+                    "name": "L004",
+                    "quality": {
+                        "lotSize": 4790,
+                        "outPut": 2179,
+                        "totalDefect": 20,
+                        "defectPercent": 0.9178522257916475,
+                        "goodPercent": 99.08214777420835
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 10,
+                        "shiftTime": 539,
+                        "breakTime": 60,
+                        "plannedProductionTime": 1018,
+                        "downtime": 0,
+                        "availability": 100
+                    }
+                },
+                {
+                    "lineId": 1,
+                    "name": "L001",
+                    "quality": {
+                        "lotSize": 8640,
+                        "outPut": 450,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 100
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 540,
+                        "breakTime": 60,
+                        "plannedProductionTime": 480,
+                        "downtime": 5,
+                        "availability": 98.95833333333333
+                    }
+                },
+                {
+                    "lineId": 2,
+                    "name": "L002",
+                    "quality": {
+                        "lotSize": 4790,
+                        "outPut": 2100,
+                        "totalDefect": 13,
+                        "defectPercent": 0.6190476190476191,
+                        "goodPercent": 99.38095238095238
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 89,
+                        "shiftTime": 539,
+                        "breakTime": 60,
+                        "plannedProductionTime": 1018,
+                        "downtime": 3.1666666666666665,
+                        "availability": 99.68893254747873
+                    }
+                }
+            ]
+        },
+        {
+            "day": 17,
+            "currentDate": "2024-12-17T00:00:00.000Z",
+            "date": "Tue Dec 17 2024 07:00:00 GMT+0700",
+            "data": [
+                {
+                    "lineId": 2,
+                    "name": "L002",
+                    "quality": {
+                        "lotSize": 6240,
+                        "outPut": 2100,
+                        "totalDefect": 52,
+                        "defectPercent": 2.4761904761904763,
+                        "goodPercent": 97.52380952380952
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 89,
+                        "shiftTime": 540,
+                        "breakTime": 60,
+                        "plannedProductionTime": 480,
+                        "downtime": 5,
+                        "availability": 98.95833333333333
+                    }
+                },
+                {
+                    "lineId": 4,
+                    "name": "L004",
+                    "quality": {
+                        "lotSize": 14400,
+                        "outPut": 2751,
+                        "totalDefect": 13,
+                        "defectPercent": 0.4725554343874955,
+                        "goodPercent": 99.5274445656125
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 89,
+                        "shiftTime": 540,
+                        "breakTime": 60,
+                        "plannedProductionTime": 480,
+                        "downtime": 0,
+                        "availability": 100
+                    }
+                },
+                {
+                    "lineId": 3,
+                    "name": "L003",
+                    "quality": {
+                        "lotSize": 8160,
+                        "outPut": 3900,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 100
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 89,
+                        "shiftTime": 540,
+                        "breakTime": 60,
+                        "plannedProductionTime": 480,
+                        "downtime": 0.6666666666666666,
+                        "availability": 99.8611111111111
+                    }
+                },
+                {
+                    "lineId": 1,
+                    "name": "L001",
+                    "quality": {
+                        "lotSize": 8980,
+                        "outPut": 886,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 100
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 1259,
+                        "breakTime": 360,
+                        "plannedProductionTime": 4676,
+                        "downtime": 5,
+                        "availability": 99.89307100085543
+                    }
+                }
+            ]
+        },
+        {
+            "day": 18,
+            "currentDate": "2024-12-18T00:00:00.000Z",
+            "date": "Wed Dec 18 2024 07:00:00 GMT+0700",
+            "data": [
+                {
+                    "lineId": 2,
+                    "name": "L002",
+                    "quality": {
+                        "lotSize": 6240,
+                        "outPut": 2035,
+                        "totalDefect": 13,
+                        "defectPercent": 0.6388206388206388,
+                        "goodPercent": 99.36117936117937
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 89,
+                        "shiftTime": 540,
+                        "breakTime": 60,
+                        "plannedProductionTime": 480,
+                        "downtime": 0,
+                        "availability": 100
+                    }
+                },
+                {
+                    "lineId": 4,
+                    "name": "L004",
+                    "quality": {
+                        "lotSize": 14400,
+                        "outPut": 2849,
+                        "totalDefect": 13,
+                        "defectPercent": 0.4563004563004563,
+                        "goodPercent": 99.54369954369955
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 89,
+                        "shiftTime": 540,
+                        "breakTime": 60,
+                        "plannedProductionTime": 480,
+                        "downtime": 0,
+                        "availability": 100
+                    }
+                },
+                {
+                    "lineId": 3,
+                    "name": "L003",
+                    "quality": {
+                        "lotSize": 8160,
+                        "outPut": 3900,
+                        "totalDefect": 13,
+                        "defectPercent": 0.3333333333333333,
+                        "goodPercent": 99.66666666666667
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 89,
+                        "shiftTime": 540,
+                        "breakTime": 60,
+                        "plannedProductionTime": 480,
+                        "downtime": 2.8333333333333335,
+                        "availability": 99.40972222222223
+                    }
+                },
+                {
+                    "lineId": 1,
+                    "name": "L001",
+                    "quality": {
+                        "lotSize": 4790,
+                        "outPut": 437,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 100
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 539,
+                        "breakTime": 60,
+                        "plannedProductionTime": 1018,
+                        "downtime": 0,
+                        "availability": 100
+                    }
+                }
+            ]
+        },
+        {
+            "day": 19,
+            "currentDate": "2024-12-19T00:00:00.000Z",
+            "date": "Thu Dec 19 2024 07:00:00 GMT+0700",
+            "data": [
+                {
+                    "lineId": 3,
+                    "name": "L003",
+                    "quality": {
+                        "lotSize": 8160,
+                        "outPut": 1690,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 100
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 540,
+                        "breakTime": 60,
+                        "plannedProductionTime": 480,
+                        "downtime": 10,
+                        "availability": 97.91666666666667
+                    }
+                },
+                {
+                    "lineId": 4,
+                    "name": "L004",
+                    "quality": {
+                        "lotSize": 14400,
+                        "outPut": 1316,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 100
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 540,
+                        "breakTime": 60,
+                        "plannedProductionTime": 480,
+                        "downtime": 3.3333333333333335,
+                        "availability": 99.30555555555557
+                    }
+                },
+                {
+                    "lineId": 1,
+                    "name": "L001",
+                    "quality": {
+                        "lotSize": 8640,
+                        "outPut": 198,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 100
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 540,
+                        "breakTime": 60,
+                        "plannedProductionTime": 480,
+                        "downtime": 5,
+                        "availability": 98.95833333333333
+                    }
+                },
+                {
+                    "lineId": 2,
+                    "name": "L002",
+                    "quality": {
+                        "lotSize": 6240,
+                        "outPut": 990,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 100
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 540,
+                        "breakTime": 60,
+                        "plannedProductionTime": 480,
+                        "downtime": 5,
+                        "availability": 98.95833333333333
+                    }
+                }
+            ]
+        },
+        {
+            "day": 20,
+            "currentDate": "2024-12-20T00:00:00.000Z",
+            "date": "Fri Dec 20 2024 07:00:00 GMT+0700",
+            "data": [
+                {
+                    "lineId": 1,
+                    "name": "L001",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 2,
+                    "name": "L002",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 3,
+                    "name": "L003",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 4,
+                    "name": "L004",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                }
+            ]
+        },
+        {
+            "day": 21,
+            "currentDate": "2024-12-21T00:00:00.000Z",
+            "date": "Sat Dec 21 2024 07:00:00 GMT+0700",
+            "data": [
+                {
+                    "lineId": 1,
+                    "name": "L001",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 2,
+                    "name": "L002",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 3,
+                    "name": "L003",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 4,
+                    "name": "L004",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                }
+            ]
+        },
+        {
+            "day": 22,
+            "currentDate": "2024-12-22T00:00:00.000Z",
+            "date": "Sun Dec 22 2024 07:00:00 GMT+0700",
+            "data": [
+                {
+                    "lineId": 1,
+                    "name": "L001",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 2,
+                    "name": "L002",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 3,
+                    "name": "L003",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 4,
+                    "name": "L004",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                }
+            ]
+        },
+        {
+            "day": 23,
+            "currentDate": "2024-12-23T00:00:00.000Z",
+            "date": "Mon Dec 23 2024 07:00:00 GMT+0700",
+            "data": [
+                {
+                    "lineId": 1,
+                    "name": "L001",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 2,
+                    "name": "L002",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 3,
+                    "name": "L003",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 4,
+                    "name": "L004",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                }
+            ]
+        },
+        {
+            "day": 24,
+            "currentDate": "2024-12-24T00:00:00.000Z",
+            "date": "Tue Dec 24 2024 07:00:00 GMT+0700",
+            "data": [
+                {
+                    "lineId": 1,
+                    "name": "L001",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 2,
+                    "name": "L002",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 3,
+                    "name": "L003",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 4,
+                    "name": "L004",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                }
+            ]
+        },
+        {
+            "day": 25,
+            "currentDate": "2024-12-25T00:00:00.000Z",
+            "date": "Wed Dec 25 2024 07:00:00 GMT+0700",
+            "data": [
+                {
+                    "lineId": 1,
+                    "name": "L001",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 2,
+                    "name": "L002",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 3,
+                    "name": "L003",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 4,
+                    "name": "L004",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                }
+            ]
+        },
+        {
+            "day": 26,
+            "currentDate": "2024-12-26T00:00:00.000Z",
+            "date": "Thu Dec 26 2024 07:00:00 GMT+0700",
+            "data": [
+                {
+                    "lineId": 1,
+                    "name": "L001",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 2,
+                    "name": "L002",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 3,
+                    "name": "L003",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 4,
+                    "name": "L004",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                }
+            ]
+        },
+        {
+            "day": 27,
+            "currentDate": "2024-12-27T00:00:00.000Z",
+            "date": "Fri Dec 27 2024 07:00:00 GMT+0700",
+            "data": [
+                {
+                    "lineId": 1,
+                    "name": "L001",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 2,
+                    "name": "L002",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 3,
+                    "name": "L003",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 4,
+                    "name": "L004",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                }
+            ]
+        },
+        {
+            "day": 28,
+            "currentDate": "2024-12-28T00:00:00.000Z",
+            "date": "Sat Dec 28 2024 07:00:00 GMT+0700",
+            "data": [
+                {
+                    "lineId": 1,
+                    "name": "L001",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 2,
+                    "name": "L002",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 3,
+                    "name": "L003",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 4,
+                    "name": "L004",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                }
+            ]
+        },
+        {
+            "day": 29,
+            "currentDate": "2024-12-29T00:00:00.000Z",
+            "date": "Sun Dec 29 2024 07:00:00 GMT+0700",
+            "data": [
+                {
+                    "lineId": 1,
+                    "name": "L001",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 2,
+                    "name": "L002",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 3,
+                    "name": "L003",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 4,
+                    "name": "L004",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                }
+            ]
+        },
+        {
+            "day": 30,
+            "currentDate": "2024-12-30T00:00:00.000Z",
+            "date": "Mon Dec 30 2024 07:00:00 GMT+0700",
+            "data": [
+                {
+                    "lineId": 1,
+                    "name": "L001",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 2,
+                    "name": "L002",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 3,
+                    "name": "L003",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 4,
+                    "name": "L004",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                }
+            ]
+        },
+        {
+            "day": 31,
+            "currentDate": "2024-12-31T00:00:00.000Z",
+            "date": "Tue Dec 31 2024 07:00:00 GMT+0700",
+            "data": [
+                {
+                    "lineId": 1,
+                    "name": "L001",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 2,
+                    "name": "L002",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 3,
+                    "name": "L003",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                },
+                {
+                    "lineId": 4,
+                    "name": "L004",
+                    "quality": {
+                        "lotSize": 0,
+                        "outPut": 0,
+                        "totalDefect": 0,
+                        "defectPercent": 0,
+                        "goodPercent": 0
+                    },
+                    "lossTime": {
+                        "totalLossTimeCount": 0,
+                        "shiftTime": 0,
+                        "breakTime": 0,
+                        "plannedProductionTime": 0,
+                        "downtime": 0,
+                        "availability": 0
+                    }
+                }
+            ]
+        }
+    ]
+}

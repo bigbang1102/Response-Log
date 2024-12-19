@@ -1,0 +1,63 @@
+// http: //ns.artroninnovative.co.th:8002/api/factory/1/product/getProduct
+// method: GET
+{
+    "status": "SUCCESS",
+    "result": [
+        {
+            "id": 1,
+            "factoryId": 1,
+            "lineId": 1,
+            "productNo": "9-OP27107",
+            "name": "MILKY WHITENING BOOSTER SHOWER&BATH CREAM 250",
+            "ct": "10.00",
+            "pcsPerHour": 1050,
+            "manPower": 4,
+            "erpPrefix": "MILKY",
+            "createdAt": "2024-12-09T05:28:41.905Z",
+            "updatedAt": "2024-12-09T05:28:41.905Z",
+            "deletedAt": null
+        },
+        {
+            "id": 2,
+            "factoryId": 1,
+            "lineId": 2,
+            "productNo": "9-CP75322",
+            "name": "Juicy Watermelon Shower Gel 490",
+            "ct": "10.00",
+            "pcsPerHour": 750,
+            "manPower": 4,
+            "erpPrefix": "JUICY",
+            "createdAt": "2024-12-09T05:28:41.905Z",
+            "updatedAt": "2024-12-09T05:28:41.905Z",
+            "deletedAt": null
+        },
+        {
+            "id": 3,
+            "factoryId": 1,
+            "lineId": 4,
+            "productNo": "9-CP75078",
+            "name": "EVORY RETOUCH PORE MINIMIZING & OIL CONPRIMER 20 G.",
+            "ct": "10.00",
+            "pcsPerHour": 1800,
+            "manPower": 4,
+            "erpPrefix": "EVORY",
+            "createdAt": "2024-12-09T05:28:41.905Z",
+            "updatedAt": "2024-12-12T06:23:55.011Z",
+            "deletedAt": null
+        },
+        {
+            "id": 4,
+            "factoryId": 1,
+            "lineId": 3,
+            "productNo": "9-OP27419",
+            "name": "ORIENTAL BEAUTY MAGNOLIA DREAM BODY LOTION 400 ML.",
+            "ct": "10.00",
+            "pcsPerHour": 1050,
+            "manPower": 4,
+            "erpPrefix": "ORIENTAL",
+            "createdAt": "2024-12-09T05:28:41.905Z",
+            "updatedAt": "2024-12-12T06:24:13.009Z",
+            "deletedAt": null
+        }
+    ]
+}
