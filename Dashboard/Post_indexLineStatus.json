@@ -1,0 +1,44 @@
+POST : http://ns.artroninnovative.co.th:8002/api/factory/1/dashboard/indexLineStatus
+
+//ภายใน Body x-www-form-urlencoded
+{
+    "startDate":"2024-12-15",
+    "endDate":"2024-12-15"
+    
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ //Response Api
+
+ {
+    "status": "SUCCESS",
+    "result": [
+        {
+            "id": 2,
+            "name": "L002",
+            "hasPlanning": true,
+            "status": false,
+            "eff": 161.53846153846155
+        },
+        {
+            "id": 1,
+            "name": "L001",
+            "hasPlanning": true,
+            "status": false,
+            "eff": 18.24074074074074
+        },
+        {
+            "id": 4,
+            "name": "L004",
+            "hasPlanning": true,
+            "status": false,
+            "eff": 91.66666666666667
+        },
+        {
+            "id": 3,
+            "name": "L003",
+            "hasPlanning": true,
+            "status": false,
+            "eff": 93.75
+        }
+    ]
+}

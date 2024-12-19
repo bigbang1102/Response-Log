@@ -1,0 +1,340 @@
+POST : http://ns.artroninnovative.co.th:8002/api/factory/1/dashboard/indexProduction
+
+//ภายใน Body x-www-form-urlencoded
+{
+    "startDate":"2024-12-15",
+    "endDate":"2024-12-15"
+    
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ //Response Api
+
+ {
+    "status": "SUCCESS",
+    "result": [
+        {
+            "id": 29,
+            "factoryId": 1,
+            "lineId": 1,
+            "productId": 1,
+            "planDate": "2024-12-15T00:00:00.000Z",
+            "mo": "20241215001",
+            "lotNo": "20241215001",
+            "lotSize": 8640,
+            "shift": [
+                {
+                    "id": 1,
+                    "shiftEnd": "17:00:00",
+                    "createdAt": "2024-05-31T09:20:52.946Z",
+                    "deletedAt": null,
+                    "factoryId": 1,
+                    "shiftType": "DAY",
+                    "updatedAt": "2024-07-01T15:31:23.511Z",
+                    "shiftStart": "08:00:00",
+                    "finishSameDay": true
+                }
+            ],
+            "breakTime": 60,
+            "finished": false,
+            "finishedAt": null,
+            "mainIp": "10.10.20.240",
+            "pcsPerHour": 1050,
+            "addLot": true,
+            "specialAdd": false,
+            "data": null,
+            "createdAt": "2024-12-15T00:10:00.164Z",
+            "updatedAt": "2024-12-15T00:10:00.164Z",
+            "deletedAt": null,
+            "line": {
+                "id": 1,
+                "factoryId": 1,
+                "floorId": null,
+                "name": "L001",
+                "isActive": true,
+                "position": null,
+                "createdAt": "2024-12-09T05:28:41.888Z",
+                "updatedAt": "2024-12-09T05:28:41.888Z",
+                "deletedAt": null
+            },
+            "product": {
+                "id": 1,
+                "factoryId": 1,
+                "lineId": 1,
+                "productNo": "9-OP27107",
+                "name": "MILKY WHITENING BOOSTER SHOWER&BATH CREAM 250",
+                "ct": "10.00",
+                "pcsPerHour": 1050,
+                "manPower": 4,
+                "erpPrefix": "MILKY",
+                "createdAt": "2024-12-09T05:28:41.905Z",
+                "updatedAt": "2024-12-09T05:28:41.905Z",
+                "deletedAt": null
+            },
+            "planningDefect": [
+                {
+                    "id": 35,
+                    "planningId": 29,
+                    "defectId": 10,
+                    "amount": 9,
+                    "percent": null,
+                    "createdAt": "2024-12-15T09:32:00.019Z",
+                    "updatedAt": "2024-12-15T09:32:00.019Z",
+                    "deletedAt": null
+                }
+            ],
+            "totalCount": 1576,
+            "totalDefect": 9,
+            "shiftTime": 540,
+            "plannedProductionTime": 480,
+            "eff": 18.24074074074074
+        },
+        {
+            "id": 27,
+            "factoryId": 1,
+            "lineId": 2,
+            "productId": 2,
+            "planDate": "2024-12-15T00:00:00.000Z",
+            "mo": "20241215002",
+            "lotNo": "20241215002",
+            "lotSize": 6240,
+            "shift": [
+                {
+                    "id": 1,
+                    "shiftEnd": "17:00:00",
+                    "createdAt": "2024-05-31T09:20:52.946Z",
+                    "deletedAt": null,
+                    "factoryId": 1,
+                    "shiftType": "DAY",
+                    "updatedAt": "2024-07-01T15:31:23.511Z",
+                    "shiftStart": "08:00:00",
+                    "finishSameDay": true
+                }
+            ],
+            "breakTime": 60,
+            "finished": false,
+            "finishedAt": null,
+            "mainIp": "10.10.20.243",
+            "pcsPerHour": 750,
+            "addLot": true,
+            "specialAdd": false,
+            "data": null,
+            "createdAt": "2024-12-15T00:10:00.155Z",
+            "updatedAt": "2024-12-15T00:10:00.155Z",
+            "deletedAt": null,
+            "line": {
+                "id": 2,
+                "factoryId": 1,
+                "floorId": null,
+                "name": "L002",
+                "isActive": true,
+                "position": null,
+                "createdAt": "2024-12-09T05:28:41.888Z",
+                "updatedAt": "2024-12-09T05:28:41.888Z",
+                "deletedAt": null
+            },
+            "product": {
+                "id": 2,
+                "factoryId": 1,
+                "lineId": 2,
+                "productNo": "9-CP75322",
+                "name": "Juicy Watermelon Shower Gel 490",
+                "ct": "10.00",
+                "pcsPerHour": 750,
+                "manPower": 4,
+                "erpPrefix": "JUICY",
+                "createdAt": "2024-12-09T05:28:41.905Z",
+                "updatedAt": "2024-12-09T05:28:41.905Z",
+                "deletedAt": null
+            },
+            "planningDefect": [
+                {
+                    "id": 38,
+                    "planningId": 27,
+                    "defectId": 12,
+                    "amount": 13,
+                    "percent": null,
+                    "createdAt": "2024-12-15T09:32:00.029Z",
+                    "updatedAt": "2024-12-15T09:32:00.029Z",
+                    "deletedAt": null
+                }
+            ],
+            "totalCount": 10080,
+            "totalDefect": 13,
+            "shiftTime": 540,
+            "plannedProductionTime": 480,
+            "eff": 161.53846153846155
+        },
+        {
+            "id": 30,
+            "factoryId": 1,
+            "lineId": 3,
+            "productId": 4,
+            "planDate": "2024-12-15T00:00:00.000Z",
+            "mo": "20241215003",
+            "lotNo": "20241215003",
+            "lotSize": 8160,
+            "shift": [
+                {
+                    "id": 1,
+                    "shiftEnd": "17:00:00",
+                    "createdAt": "2024-05-31T09:20:52.946Z",
+                    "deletedAt": null,
+                    "factoryId": 1,
+                    "shiftType": "DAY",
+                    "updatedAt": "2024-07-01T15:31:23.511Z",
+                    "shiftStart": "08:00:00",
+                    "finishSameDay": true
+                }
+            ],
+            "breakTime": 60,
+            "finished": false,
+            "finishedAt": null,
+            "mainIp": "10.10.20.246",
+            "pcsPerHour": 1050,
+            "addLot": false,
+            "specialAdd": false,
+            "data": null,
+            "createdAt": "2024-12-15T00:10:00.166Z",
+            "updatedAt": "2024-12-15T00:10:00.166Z",
+            "deletedAt": null,
+            "line": {
+                "id": 3,
+                "factoryId": 1,
+                "floorId": null,
+                "name": "L003",
+                "isActive": true,
+                "position": null,
+                "createdAt": "2024-12-09T05:28:41.888Z",
+                "updatedAt": "2024-12-09T05:28:41.888Z",
+                "deletedAt": null
+            },
+            "product": {
+                "id": 4,
+                "factoryId": 1,
+                "lineId": 3,
+                "productNo": "9-OP27419",
+                "name": "ORIENTAL BEAUTY MAGNOLIA DREAM BODY LOTION 400 ML.",
+                "ct": "10.00",
+                "pcsPerHour": 1050,
+                "manPower": 4,
+                "erpPrefix": "ORIENTAL",
+                "createdAt": "2024-12-09T05:28:41.905Z",
+                "updatedAt": "2024-12-12T06:24:13.009Z",
+                "deletedAt": null
+            },
+            "planningDefect": [
+                {
+                    "id": 36,
+                    "planningId": 30,
+                    "defectId": 15,
+                    "amount": 10,
+                    "percent": null,
+                    "createdAt": "2024-12-15T09:32:00.023Z",
+                    "updatedAt": "2024-12-15T09:32:00.023Z",
+                    "deletedAt": null
+                }
+            ],
+            "totalCount": 7650,
+            "totalDefect": 10,
+            "shiftTime": 540,
+            "plannedProductionTime": 480,
+            "eff": 93.75
+        },
+        {
+            "id": 28,
+            "factoryId": 1,
+            "lineId": 4,
+            "productId": 3,
+            "planDate": "2024-12-15T00:00:00.000Z",
+            "mo": "20241215004",
+            "lotNo": "20241215004",
+            "lotSize": 14400,
+            "shift": [
+                {
+                    "id": 1,
+                    "shiftEnd": "17:00:00",
+                    "createdAt": "2024-05-31T09:20:52.946Z",
+                    "deletedAt": null,
+                    "factoryId": 1,
+                    "shiftType": "DAY",
+                    "updatedAt": "2024-07-01T15:31:23.511Z",
+                    "shiftStart": "08:00:00",
+                    "finishSameDay": true
+                }
+            ],
+            "breakTime": 60,
+            "finished": false,
+            "finishedAt": null,
+            "mainIp": "10.10.20.249",
+            "pcsPerHour": 1800,
+            "addLot": false,
+            "specialAdd": false,
+            "data": null,
+            "createdAt": "2024-12-15T00:10:00.161Z",
+            "updatedAt": "2024-12-15T00:10:00.161Z",
+            "deletedAt": null,
+            "line": {
+                "id": 4,
+                "factoryId": 1,
+                "floorId": null,
+                "name": "L004",
+                "isActive": true,
+                "position": null,
+                "createdAt": "2024-12-09T05:28:41.888Z",
+                "updatedAt": "2024-12-09T05:28:41.888Z",
+                "deletedAt": null
+            },
+            "product": {
+                "id": 3,
+                "factoryId": 1,
+                "lineId": 4,
+                "productNo": "9-CP75078",
+                "name": "EVORY RETOUCH PORE MINIMIZING & OIL CONPRIMER 20 G.",
+                "ct": "10.00",
+                "pcsPerHour": 1800,
+                "manPower": 4,
+                "erpPrefix": "EVORY",
+                "createdAt": "2024-12-09T05:28:41.905Z",
+                "updatedAt": "2024-12-12T06:23:55.011Z",
+                "deletedAt": null
+            },
+            "planningDefect": [
+                {
+                    "id": 37,
+                    "planningId": 28,
+                    "defectId": 10,
+                    "amount": 5,
+                    "percent": null,
+                    "createdAt": "2024-12-15T09:32:00.026Z",
+                    "updatedAt": "2024-12-15T09:32:00.026Z",
+                    "deletedAt": null
+                },
+                {
+                    "id": 39,
+                    "planningId": 28,
+                    "defectId": 11,
+                    "amount": 10,
+                    "percent": null,
+                    "createdAt": "2024-12-15T09:32:00.071Z",
+                    "updatedAt": "2024-12-15T09:32:00.071Z",
+                    "deletedAt": null
+                },
+                {
+                    "id": 40,
+                    "planningId": 28,
+                    "defectId": 15,
+                    "amount": 5,
+                    "percent": null,
+                    "createdAt": "2024-12-15T09:32:00.074Z",
+                    "updatedAt": "2024-12-15T09:32:00.074Z",
+                    "deletedAt": null
+                }
+            ],
+            "totalCount": 13200,
+            "totalDefect": 20,
+            "shiftTime": 540,
+            "plannedProductionTime": 480,
+            "eff": 91.66666666666667
+        }
+    ]
+}

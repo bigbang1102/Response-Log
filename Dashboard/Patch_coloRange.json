@@ -1,0 +1,32 @@
+PATCH : http://ns.artroninnovative.co.th:8002/api/factory/1/dashboard/colorRange
+
+//ภายใน Body x-www-form-urlencoded
+{
+    "redLower":"0",
+    "redUpper":"79",
+    "yellowLower":"80",
+    "yellowUpper":"90",
+    "greenLower":"91",
+    "greenUpper":"100",
+    
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ //Response Api
+
+ {
+    "status": "SUCCESS",
+    "result": {
+        "id": 1,
+        "name": "Test1 Factory",
+        "target": null,
+        "redLower": "0.00",
+        "redUpper": "79.00",
+        "yellowLower": "80.00",
+        "yellowUpper": "90.00",
+        "greenLower": "91.00",
+        "greenUpper": "100.00",
+        "createdAt": "2024-12-09T05:28:41.847Z",
+        "updatedAt": "2024-12-19T04:37:47.841Z",
+        "deletedAt": null
+    }
+}

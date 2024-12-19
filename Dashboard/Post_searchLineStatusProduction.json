@@ -1,0 +1,1835 @@
+POST : http://ns.artroninnovative.co.th:8002/api/factory/1/dashboard/searchLineStatusProduction
+
+//ภายใน Body x-www-form-urlencoded
+{
+    "page":1,
+    "perPage":20,
+    "startDate":"2024-12-01",
+    "endDate":"2024-12-31"
+    
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ //Response Api
+
+ {
+    "status": "SUCCESS",
+    "result": [
+        {
+            "id": 34,
+            "factoryId": 1,
+            "lineId": 1,
+            "productId": 1,
+            "planDate": "2024-12-16T00:00:00.000Z",
+            "mo": "20241216001",
+            "lotNo": "20241216001",
+            "lotSize": 8640,
+            "shift": [
+                {
+                    "id": 1,
+                    "shiftEnd": "17:00:00",
+                    "createdAt": "2024-05-31T09:20:52.946Z",
+                    "deletedAt": null,
+                    "factoryId": 1,
+                    "shiftType": "DAY",
+                    "updatedAt": "2024-07-01T15:31:23.511Z",
+                    "shiftStart": "08:00:00",
+                    "finishSameDay": true
+                }
+            ],
+            "breakTime": 60,
+            "finished": false,
+            "finishedAt": null,
+            "mainIp": "10.10.20.240",
+            "pcsPerHour": 1050,
+            "addLot": true,
+            "specialAdd": false,
+            "data": null,
+            "createdAt": "2024-12-16T00:10:00.117Z",
+            "updatedAt": "2024-12-16T00:10:00.117Z",
+            "deletedAt": null,
+            "line": {
+                "id": 1,
+                "factoryId": 1,
+                "floorId": null,
+                "name": "L001",
+                "isActive": true,
+                "position": null,
+                "createdAt": "2024-12-09T05:28:41.888Z",
+                "updatedAt": "2024-12-09T05:28:41.888Z",
+                "deletedAt": null,
+                "lineMachine": [
+                    {
+                        "id": 1,
+                        "lineId": 1,
+                        "machineId": 1,
+                        "isMain": true,
+                        "createdAt": "2024-12-09T05:28:41.895Z",
+                        "updatedAt": "2024-12-09T05:28:41.895Z",
+                        "deletedAt": null,
+                        "machine": {
+                            "id": 1,
+                            "factoryId": 1,
+                            "processId": 1,
+                            "name": "เครื่องของเหลว,เครื่องหยอด",
+                            "ip": "10.10.20.240",
+                            "createdAt": "2024-12-09T05:28:41.870Z",
+                            "updatedAt": "2024-12-12T09:37:04.989Z",
+                            "deletedAt": null
+                        }
+                    }
+                ]
+            },
+            "product": {
+                "id": 1,
+                "factoryId": 1,
+                "lineId": 1,
+                "productNo": "9-OP27107",
+                "name": "MILKY WHITENING BOOSTER SHOWER&BATH CREAM 250",
+                "ct": "10.00",
+                "pcsPerHour": 1050,
+                "manPower": 4,
+                "erpPrefix": "MILKY",
+                "createdAt": "2024-12-09T05:28:41.905Z",
+                "updatedAt": "2024-12-09T05:28:41.905Z",
+                "deletedAt": null
+            },
+            "planningDefect": [],
+            "planningBreakdown": []
+        },
+        {
+            "id": 50,
+            "factoryId": 1,
+            "lineId": 1,
+            "productId": 1,
+            "planDate": "2024-12-17T00:00:00.000Z",
+            "mo": "20241217001",
+            "lotNo": "20241217001",
+            "lotSize": 2400,
+            "shift": [
+                {
+                    "id": 1,
+                    "shiftEnd": "13:00:38",
+                    "createdAt": "2024-12-09T05:28:41.924Z",
+                    "deletedAt": null,
+                    "factoryId": 1,
+                    "shiftType": "CUSTOM",
+                    "updatedAt": "2024-12-16T03:10:52.429Z",
+                    "shiftStart": "08:00:00",
+                    "finishSameDay": true
+                }
+            ],
+            "breakTime": 60,
+            "finished": false,
+            "finishedAt": null,
+            "mainIp": "10.10.20.240",
+            "pcsPerHour": 1050,
+            "addLot": false,
+            "specialAdd": false,
+            "data": null,
+            "createdAt": "2024-12-17T00:10:00.108Z",
+            "updatedAt": "2024-12-17T06:00:38.169Z",
+            "deletedAt": null,
+            "line": {
+                "id": 1,
+                "factoryId": 1,
+                "floorId": null,
+                "name": "L001",
+                "isActive": true,
+                "position": null,
+                "createdAt": "2024-12-09T05:28:41.888Z",
+                "updatedAt": "2024-12-09T05:28:41.888Z",
+                "deletedAt": null,
+                "lineMachine": [
+                    {
+                        "id": 1,
+                        "lineId": 1,
+                        "machineId": 1,
+                        "isMain": true,
+                        "createdAt": "2024-12-09T05:28:41.895Z",
+                        "updatedAt": "2024-12-09T05:28:41.895Z",
+                        "deletedAt": null,
+                        "machine": {
+                            "id": 1,
+                            "factoryId": 1,
+                            "processId": 1,
+                            "name": "เครื่องของเหลว,เครื่องหยอด",
+                            "ip": "10.10.20.240",
+                            "createdAt": "2024-12-09T05:28:41.870Z",
+                            "updatedAt": "2024-12-12T09:37:04.989Z",
+                            "deletedAt": null
+                        }
+                    }
+                ]
+            },
+            "product": {
+                "id": 1,
+                "factoryId": 1,
+                "lineId": 1,
+                "productNo": "9-OP27107",
+                "name": "MILKY WHITENING BOOSTER SHOWER&BATH CREAM 250",
+                "ct": "10.00",
+                "pcsPerHour": 1050,
+                "manPower": 4,
+                "erpPrefix": "MILKY",
+                "createdAt": "2024-12-09T05:28:41.905Z",
+                "updatedAt": "2024-12-09T05:28:41.905Z",
+                "deletedAt": null
+            },
+            "planningDefect": [],
+            "planningBreakdown": []
+        },
+        {
+            "id": 51,
+            "factoryId": 1,
+            "lineId": 1,
+            "productId": 1,
+            "planDate": "2024-12-17T00:00:00.000Z",
+            "mo": "20241217001",
+            "lotNo": "20241217001-2",
+            "lotSize": 2390,
+            "shift": [
+                {
+                    "id": 1,
+                    "shiftEnd": "17:00:00",
+                    "createdAt": "2024-12-09T05:28:41.924Z",
+                    "deletedAt": null,
+                    "factoryId": 1,
+                    "shiftType": "CUSTOM",
+                    "updatedAt": "2024-12-16T03:10:52.429Z",
+                    "shiftStart": "13:00:38",
+                    "finishSameDay": true
+                }
+            ],
+            "breakTime": 0,
+            "finished": false,
+            "finishedAt": null,
+            "mainIp": "10.10.20.240",
+            "pcsPerHour": 1050,
+            "addLot": false,
+            "specialAdd": true,
+            "data": null,
+            "createdAt": "2024-12-17T06:00:38.174Z",
+            "updatedAt": "2024-12-17T06:00:38.174Z",
+            "deletedAt": null,
+            "line": {
+                "id": 1,
+                "factoryId": 1,
+                "floorId": null,
+                "name": "L001",
+                "isActive": true,
+                "position": null,
+                "createdAt": "2024-12-09T05:28:41.888Z",
+                "updatedAt": "2024-12-09T05:28:41.888Z",
+                "deletedAt": null,
+                "lineMachine": [
+                    {
+                        "id": 1,
+                        "lineId": 1,
+                        "machineId": 1,
+                        "isMain": true,
+                        "createdAt": "2024-12-09T05:28:41.895Z",
+                        "updatedAt": "2024-12-09T05:28:41.895Z",
+                        "deletedAt": null,
+                        "machine": {
+                            "id": 1,
+                            "factoryId": 1,
+                            "processId": 1,
+                            "name": "เครื่องของเหลว,เครื่องหยอด",
+                            "ip": "10.10.20.240",
+                            "createdAt": "2024-12-09T05:28:41.870Z",
+                            "updatedAt": "2024-12-12T09:37:04.989Z",
+                            "deletedAt": null
+                        }
+                    }
+                ]
+            },
+            "product": {
+                "id": 1,
+                "factoryId": 1,
+                "lineId": 1,
+                "productNo": "9-OP27107",
+                "name": "MILKY WHITENING BOOSTER SHOWER&BATH CREAM 250",
+                "ct": "10.00",
+                "pcsPerHour": 1050,
+                "manPower": 4,
+                "erpPrefix": "MILKY",
+                "createdAt": "2024-12-09T05:28:41.905Z",
+                "updatedAt": "2024-12-09T05:28:41.905Z",
+                "deletedAt": null
+            },
+            "planningDefect": [],
+            "planningBreakdown": []
+        },
+        {
+            "id": 59,
+            "factoryId": 1,
+            "lineId": 1,
+            "productId": 1,
+            "planDate": "2024-12-17T00:00:00.000Z",
+            "mo": "3232323",
+            "lotNo": "1000",
+            "lotSize": 1120,
+            "shift": [
+                {
+                    "id": 4,
+                    "shiftEnd": "21:52:29",
+                    "createdAt": "2024-12-09T05:28:41.924Z",
+                    "deletedAt": null,
+                    "factoryId": 1,
+                    "shiftType": "CUSTOM",
+                    "updatedAt": "2024-12-09T05:28:41.924Z",
+                    "shiftStart": "20:00:00",
+                    "finishSameDay": false
+                }
+            ],
+            "breakTime": 300,
+            "finished": false,
+            "finishedAt": null,
+            "mainIp": "10.10.20.240",
+            "pcsPerHour": 1050,
+            "addLot": false,
+            "specialAdd": false,
+            "data": null,
+            "createdAt": "2024-12-17T14:26:25.714Z",
+            "updatedAt": "2024-12-17T14:52:29.356Z",
+            "deletedAt": null,
+            "line": {
+                "id": 1,
+                "factoryId": 1,
+                "floorId": null,
+                "name": "L001",
+                "isActive": true,
+                "position": null,
+                "createdAt": "2024-12-09T05:28:41.888Z",
+                "updatedAt": "2024-12-09T05:28:41.888Z",
+                "deletedAt": null,
+                "lineMachine": [
+                    {
+                        "id": 1,
+                        "lineId": 1,
+                        "machineId": 1,
+                        "isMain": true,
+                        "createdAt": "2024-12-09T05:28:41.895Z",
+                        "updatedAt": "2024-12-09T05:28:41.895Z",
+                        "deletedAt": null,
+                        "machine": {
+                            "id": 1,
+                            "factoryId": 1,
+                            "processId": 1,
+                            "name": "เครื่องของเหลว,เครื่องหยอด",
+                            "ip": "10.10.20.240",
+                            "createdAt": "2024-12-09T05:28:41.870Z",
+                            "updatedAt": "2024-12-12T09:37:04.989Z",
+                            "deletedAt": null
+                        }
+                    }
+                ]
+            },
+            "product": {
+                "id": 1,
+                "factoryId": 1,
+                "lineId": 1,
+                "productNo": "9-OP27107",
+                "name": "MILKY WHITENING BOOSTER SHOWER&BATH CREAM 250",
+                "ct": "10.00",
+                "pcsPerHour": 1050,
+                "manPower": 4,
+                "erpPrefix": "MILKY",
+                "createdAt": "2024-12-09T05:28:41.905Z",
+                "updatedAt": "2024-12-09T05:28:41.905Z",
+                "deletedAt": null
+            },
+            "planningDefect": [],
+            "planningBreakdown": []
+        },
+        {
+            "id": 60,
+            "factoryId": 1,
+            "lineId": 1,
+            "productId": 1,
+            "planDate": "2024-12-17T00:00:00.000Z",
+            "mo": "3232323",
+            "lotNo": "1000-0",
+            "lotSize": 3070,
+            "shift": [
+                {
+                    "id": 4,
+                    "shiftEnd": "08:00:00",
+                    "createdAt": "2024-12-09T05:28:41.924Z",
+                    "deletedAt": null,
+                    "factoryId": 1,
+                    "shiftType": "CUSTOM",
+                    "updatedAt": "2024-12-09T05:28:41.924Z",
+                    "shiftStart": "21:52:29",
+                    "finishSameDay": true
+                }
+            ],
+            "breakTime": 0,
+            "finished": false,
+            "finishedAt": null,
+            "mainIp": "10.10.20.240",
+            "pcsPerHour": 1050,
+            "addLot": false,
+            "specialAdd": true,
+            "data": null,
+            "createdAt": "2024-12-17T14:52:29.369Z",
+            "updatedAt": "2024-12-17T14:52:29.369Z",
+            "deletedAt": null,
+            "line": {
+                "id": 1,
+                "factoryId": 1,
+                "floorId": null,
+                "name": "L001",
+                "isActive": true,
+                "position": null,
+                "createdAt": "2024-12-09T05:28:41.888Z",
+                "updatedAt": "2024-12-09T05:28:41.888Z",
+                "deletedAt": null,
+                "lineMachine": [
+                    {
+                        "id": 1,
+                        "lineId": 1,
+                        "machineId": 1,
+                        "isMain": true,
+                        "createdAt": "2024-12-09T05:28:41.895Z",
+                        "updatedAt": "2024-12-09T05:28:41.895Z",
+                        "deletedAt": null,
+                        "machine": {
+                            "id": 1,
+                            "factoryId": 1,
+                            "processId": 1,
+                            "name": "เครื่องของเหลว,เครื่องหยอด",
+                            "ip": "10.10.20.240",
+                            "createdAt": "2024-12-09T05:28:41.870Z",
+                            "updatedAt": "2024-12-12T09:37:04.989Z",
+                            "deletedAt": null
+                        }
+                    }
+                ]
+            },
+            "product": {
+                "id": 1,
+                "factoryId": 1,
+                "lineId": 1,
+                "productNo": "9-OP27107",
+                "name": "MILKY WHITENING BOOSTER SHOWER&BATH CREAM 250",
+                "ct": "10.00",
+                "pcsPerHour": 1050,
+                "manPower": 4,
+                "erpPrefix": "MILKY",
+                "createdAt": "2024-12-09T05:28:41.905Z",
+                "updatedAt": "2024-12-09T05:28:41.905Z",
+                "deletedAt": null
+            },
+            "planningDefect": [],
+            "planningBreakdown": []
+        },
+        {
+            "id": 61,
+            "factoryId": 1,
+            "lineId": 1,
+            "productId": 1,
+            "planDate": "2024-12-18T00:00:00.000Z",
+            "mo": "20241218001",
+            "lotNo": "20241218001",
+            "lotSize": 3280,
+            "shift": [
+                {
+                    "id": 1,
+                    "shiftEnd": "14:28:11",
+                    "createdAt": "2024-05-31T09:20:52.946Z",
+                    "deletedAt": null,
+                    "factoryId": 1,
+                    "shiftType": "CUSTOM",
+                    "updatedAt": "2024-07-01T15:31:23.511Z",
+                    "shiftStart": "08:00:00",
+                    "finishSameDay": true
+                }
+            ],
+            "breakTime": 60,
+            "finished": false,
+            "finishedAt": null,
+            "mainIp": "10.10.20.240",
+            "pcsPerHour": 1050,
+            "addLot": false,
+            "specialAdd": false,
+            "data": null,
+            "createdAt": "2024-12-18T01:40:06.533Z",
+            "updatedAt": "2024-12-18T07:28:11.148Z",
+            "deletedAt": null,
+            "line": {
+                "id": 1,
+                "factoryId": 1,
+                "floorId": null,
+                "name": "L001",
+                "isActive": true,
+                "position": null,
+                "createdAt": "2024-12-09T05:28:41.888Z",
+                "updatedAt": "2024-12-09T05:28:41.888Z",
+                "deletedAt": null,
+                "lineMachine": [
+                    {
+                        "id": 1,
+                        "lineId": 1,
+                        "machineId": 1,
+                        "isMain": true,
+                        "createdAt": "2024-12-09T05:28:41.895Z",
+                        "updatedAt": "2024-12-09T05:28:41.895Z",
+                        "deletedAt": null,
+                        "machine": {
+                            "id": 1,
+                            "factoryId": 1,
+                            "processId": 1,
+                            "name": "เครื่องของเหลว,เครื่องหยอด",
+                            "ip": "10.10.20.240",
+                            "createdAt": "2024-12-09T05:28:41.870Z",
+                            "updatedAt": "2024-12-12T09:37:04.989Z",
+                            "deletedAt": null
+                        }
+                    }
+                ]
+            },
+            "product": {
+                "id": 1,
+                "factoryId": 1,
+                "lineId": 1,
+                "productNo": "9-OP27107",
+                "name": "MILKY WHITENING BOOSTER SHOWER&BATH CREAM 250",
+                "ct": "10.00",
+                "pcsPerHour": 1050,
+                "manPower": 4,
+                "erpPrefix": "MILKY",
+                "createdAt": "2024-12-09T05:28:41.905Z",
+                "updatedAt": "2024-12-09T05:28:41.905Z",
+                "deletedAt": null
+            },
+            "planningDefect": [],
+            "planningBreakdown": []
+        },
+        {
+            "id": 65,
+            "factoryId": 1,
+            "lineId": 1,
+            "productId": 1,
+            "planDate": "2024-12-18T00:00:00.000Z",
+            "mo": "20241218001",
+            "lotNo": "20241218001-001",
+            "lotSize": 1510,
+            "shift": [
+                {
+                    "id": 1,
+                    "shiftEnd": "17:00:00",
+                    "createdAt": "2024-05-31T09:20:52.946Z",
+                    "deletedAt": null,
+                    "factoryId": 1,
+                    "shiftType": "CUSTOM",
+                    "updatedAt": "2024-07-01T15:31:23.511Z",
+                    "shiftStart": "14:28:11",
+                    "finishSameDay": true
+                }
+            ],
+            "breakTime": 0,
+            "finished": false,
+            "finishedAt": null,
+            "mainIp": "10.10.20.240",
+            "pcsPerHour": 1050,
+            "addLot": false,
+            "specialAdd": true,
+            "data": null,
+            "createdAt": "2024-12-18T07:28:11.154Z",
+            "updatedAt": "2024-12-18T07:28:11.154Z",
+            "deletedAt": null,
+            "line": {
+                "id": 1,
+                "factoryId": 1,
+                "floorId": null,
+                "name": "L001",
+                "isActive": true,
+                "position": null,
+                "createdAt": "2024-12-09T05:28:41.888Z",
+                "updatedAt": "2024-12-09T05:28:41.888Z",
+                "deletedAt": null,
+                "lineMachine": [
+                    {
+                        "id": 1,
+                        "lineId": 1,
+                        "machineId": 1,
+                        "isMain": true,
+                        "createdAt": "2024-12-09T05:28:41.895Z",
+                        "updatedAt": "2024-12-09T05:28:41.895Z",
+                        "deletedAt": null,
+                        "machine": {
+                            "id": 1,
+                            "factoryId": 1,
+                            "processId": 1,
+                            "name": "เครื่องของเหลว,เครื่องหยอด",
+                            "ip": "10.10.20.240",
+                            "createdAt": "2024-12-09T05:28:41.870Z",
+                            "updatedAt": "2024-12-12T09:37:04.989Z",
+                            "deletedAt": null
+                        }
+                    }
+                ]
+            },
+            "product": {
+                "id": 1,
+                "factoryId": 1,
+                "lineId": 1,
+                "productNo": "9-OP27107",
+                "name": "MILKY WHITENING BOOSTER SHOWER&BATH CREAM 250",
+                "ct": "10.00",
+                "pcsPerHour": 1050,
+                "manPower": 4,
+                "erpPrefix": "MILKY",
+                "createdAt": "2024-12-09T05:28:41.905Z",
+                "updatedAt": "2024-12-09T05:28:41.905Z",
+                "deletedAt": null
+            },
+            "planningDefect": [],
+            "planningBreakdown": []
+        },
+        {
+            "id": 68,
+            "factoryId": 1,
+            "lineId": 1,
+            "productId": 1,
+            "planDate": "2024-12-19T00:00:00.000Z",
+            "mo": "20241219001",
+            "lotNo": "20241219001",
+            "lotSize": 8640,
+            "shift": [
+                {
+                    "id": 1,
+                    "shiftEnd": "17:00:00",
+                    "createdAt": "2024-05-31T09:20:52.946Z",
+                    "deletedAt": null,
+                    "factoryId": 1,
+                    "shiftType": "DAY",
+                    "updatedAt": "2024-07-01T15:31:23.511Z",
+                    "shiftStart": "08:00:00",
+                    "finishSameDay": true
+                }
+            ],
+            "breakTime": 60,
+            "finished": false,
+            "finishedAt": null,
+            "mainIp": "10.10.20.240",
+            "pcsPerHour": 1050,
+            "addLot": true,
+            "specialAdd": false,
+            "data": null,
+            "createdAt": "2024-12-19T00:10:00.116Z",
+            "updatedAt": "2024-12-19T00:10:00.116Z",
+            "deletedAt": null,
+            "line": {
+                "id": 1,
+                "factoryId": 1,
+                "floorId": null,
+                "name": "L001",
+                "isActive": true,
+                "position": null,
+                "createdAt": "2024-12-09T05:28:41.888Z",
+                "updatedAt": "2024-12-09T05:28:41.888Z",
+                "deletedAt": null,
+                "lineMachine": [
+                    {
+                        "id": 1,
+                        "lineId": 1,
+                        "machineId": 1,
+                        "isMain": true,
+                        "createdAt": "2024-12-09T05:28:41.895Z",
+                        "updatedAt": "2024-12-09T05:28:41.895Z",
+                        "deletedAt": null,
+                        "machine": {
+                            "id": 1,
+                            "factoryId": 1,
+                            "processId": 1,
+                            "name": "เครื่องของเหลว,เครื่องหยอด",
+                            "ip": "10.10.20.240",
+                            "createdAt": "2024-12-09T05:28:41.870Z",
+                            "updatedAt": "2024-12-12T09:37:04.989Z",
+                            "deletedAt": null
+                        }
+                    }
+                ]
+            },
+            "product": {
+                "id": 1,
+                "factoryId": 1,
+                "lineId": 1,
+                "productNo": "9-OP27107",
+                "name": "MILKY WHITENING BOOSTER SHOWER&BATH CREAM 250",
+                "ct": "10.00",
+                "pcsPerHour": 1050,
+                "manPower": 4,
+                "erpPrefix": "MILKY",
+                "createdAt": "2024-12-09T05:28:41.905Z",
+                "updatedAt": "2024-12-09T05:28:41.905Z",
+                "deletedAt": null
+            },
+            "planningDefect": [],
+            "planningBreakdown": []
+        },
+        {
+            "id": 35,
+            "factoryId": 1,
+            "lineId": 2,
+            "productId": 2,
+            "planDate": "2024-12-16T00:00:00.000Z",
+            "mo": "20241216002",
+            "lotNo": "20241216002-2",
+            "lotSize": 4250,
+            "shift": [
+                {
+                    "id": 1,
+                    "shiftEnd": "17:00:00",
+                    "createdAt": "2024-12-09T05:28:41.924Z",
+                    "deletedAt": null,
+                    "factoryId": 1,
+                    "shiftType": "CUSTOM",
+                    "updatedAt": "2024-12-09T05:28:41.924Z",
+                    "shiftStart": "09:54:19",
+                    "finishSameDay": true
+                }
+            ],
+            "breakTime": 0,
+            "finished": false,
+            "finishedAt": null,
+            "mainIp": "10.10.20.243",
+            "pcsPerHour": 750,
+            "addLot": false,
+            "specialAdd": true,
+            "data": null,
+            "createdAt": "2024-12-16T02:54:19.211Z",
+            "updatedAt": "2024-12-16T02:54:19.211Z",
+            "deletedAt": null,
+            "line": {
+                "id": 2,
+                "factoryId": 1,
+                "floorId": null,
+                "name": "L002",
+                "isActive": true,
+                "position": null,
+                "createdAt": "2024-12-09T05:28:41.888Z",
+                "updatedAt": "2024-12-09T05:28:41.888Z",
+                "deletedAt": null,
+                "lineMachine": [
+                    {
+                        "id": 4,
+                        "lineId": 2,
+                        "machineId": 4,
+                        "isMain": true,
+                        "createdAt": "2024-12-09T05:28:41.895Z",
+                        "updatedAt": "2024-12-09T05:28:41.895Z",
+                        "deletedAt": null,
+                        "machine": {
+                            "id": 4,
+                            "factoryId": 1,
+                            "processId": 1,
+                            "name": "เครื่องของเหลว",
+                            "ip": "10.10.20.243",
+                            "createdAt": "2024-12-09T05:28:41.870Z",
+                            "updatedAt": "2024-12-09T05:28:41.870Z",
+                            "deletedAt": null
+                        }
+                    }
+                ]
+            },
+            "product": {
+                "id": 2,
+                "factoryId": 1,
+                "lineId": 2,
+                "productNo": "9-CP75322",
+                "name": "Juicy Watermelon Shower Gel 490",
+                "ct": "10.00",
+                "pcsPerHour": 750,
+                "manPower": 4,
+                "erpPrefix": "JUICY",
+                "createdAt": "2024-12-09T05:28:41.905Z",
+                "updatedAt": "2024-12-09T05:28:41.905Z",
+                "deletedAt": null
+            },
+            "planningDefect": [],
+            "planningBreakdown": []
+        },
+        {
+            "id": 47,
+            "factoryId": 1,
+            "lineId": 2,
+            "productId": 2,
+            "planDate": "2024-12-17T00:00:00.000Z",
+            "mo": "20241217002",
+            "lotNo": "20241217002",
+            "lotSize": 6240,
+            "shift": [
+                {
+                    "id": 1,
+                    "shiftEnd": "17:00:00",
+                    "createdAt": "2024-05-31T09:20:52.946Z",
+                    "deletedAt": null,
+                    "factoryId": 1,
+                    "shiftType": "DAY",
+                    "updatedAt": "2024-07-01T15:31:23.511Z",
+                    "shiftStart": "08:00:00",
+                    "finishSameDay": true
+                }
+            ],
+            "breakTime": 60,
+            "finished": false,
+            "finishedAt": null,
+            "mainIp": "10.10.20.243",
+            "pcsPerHour": 750,
+            "addLot": true,
+            "specialAdd": false,
+            "data": null,
+            "createdAt": "2024-12-17T00:10:00.092Z",
+            "updatedAt": "2024-12-17T00:10:00.092Z",
+            "deletedAt": null,
+            "line": {
+                "id": 2,
+                "factoryId": 1,
+                "floorId": null,
+                "name": "L002",
+                "isActive": true,
+                "position": null,
+                "createdAt": "2024-12-09T05:28:41.888Z",
+                "updatedAt": "2024-12-09T05:28:41.888Z",
+                "deletedAt": null,
+                "lineMachine": [
+                    {
+                        "id": 4,
+                        "lineId": 2,
+                        "machineId": 4,
+                        "isMain": true,
+                        "createdAt": "2024-12-09T05:28:41.895Z",
+                        "updatedAt": "2024-12-09T05:28:41.895Z",
+                        "deletedAt": null,
+                        "machine": {
+                            "id": 4,
+                            "factoryId": 1,
+                            "processId": 1,
+                            "name": "เครื่องของเหลว",
+                            "ip": "10.10.20.243",
+                            "createdAt": "2024-12-09T05:28:41.870Z",
+                            "updatedAt": "2024-12-09T05:28:41.870Z",
+                            "deletedAt": null
+                        }
+                    }
+                ]
+            },
+            "product": {
+                "id": 2,
+                "factoryId": 1,
+                "lineId": 2,
+                "productNo": "9-CP75322",
+                "name": "Juicy Watermelon Shower Gel 490",
+                "ct": "10.00",
+                "pcsPerHour": 750,
+                "manPower": 4,
+                "erpPrefix": "JUICY",
+                "createdAt": "2024-12-09T05:28:41.905Z",
+                "updatedAt": "2024-12-09T05:28:41.905Z",
+                "deletedAt": null
+            },
+            "planningDefect": [
+                {
+                    "id": 46,
+                    "planningId": 47,
+                    "defectId": 12,
+                    "amount": 13,
+                    "percent": null,
+                    "createdAt": "2024-12-17T09:32:00.020Z",
+                    "updatedAt": "2024-12-17T09:32:00.020Z",
+                    "deletedAt": null
+                },
+                {
+                    "id": 48,
+                    "planningId": 47,
+                    "defectId": 12,
+                    "amount": 13,
+                    "percent": null,
+                    "createdAt": "2024-12-17T09:32:00.029Z",
+                    "updatedAt": "2024-12-17T09:32:00.029Z",
+                    "deletedAt": null
+                },
+                {
+                    "id": 47,
+                    "planningId": 47,
+                    "defectId": 12,
+                    "amount": 13,
+                    "percent": null,
+                    "createdAt": "2024-12-17T09:32:00.027Z",
+                    "updatedAt": "2024-12-17T09:32:00.027Z",
+                    "deletedAt": null
+                },
+                {
+                    "id": 49,
+                    "planningId": 47,
+                    "defectId": 12,
+                    "amount": 13,
+                    "percent": null,
+                    "createdAt": "2024-12-17T11:58:33.687Z",
+                    "updatedAt": "2024-12-17T11:58:33.687Z",
+                    "deletedAt": null
+                }
+            ],
+            "planningBreakdown": [
+                {
+                    "id": 24,
+                    "planningId": 47,
+                    "breakdownId": 11,
+                    "secondAmount": null,
+                    "percent": null,
+                    "createdAt": "2024-12-17T07:00:10.015Z",
+                    "updatedAt": "2024-12-17T07:00:10.015Z",
+                    "deletedAt": null
+                },
+                {
+                    "id": 25,
+                    "planningId": 47,
+                    "breakdownId": 11,
+                    "secondAmount": null,
+                    "percent": null,
+                    "createdAt": "2024-12-17T07:00:10.020Z",
+                    "updatedAt": "2024-12-17T07:00:10.020Z",
+                    "deletedAt": null
+                },
+                {
+                    "id": 26,
+                    "planningId": 47,
+                    "breakdownId": 11,
+                    "secondAmount": null,
+                    "percent": null,
+                    "createdAt": "2024-12-17T07:00:10.021Z",
+                    "updatedAt": "2024-12-17T07:00:10.021Z",
+                    "deletedAt": null
+                }
+            ]
+        },
+        {
+            "id": 62,
+            "factoryId": 1,
+            "lineId": 2,
+            "productId": 2,
+            "planDate": "2024-12-18T00:00:00.000Z",
+            "mo": "20241218002",
+            "lotNo": "20241218002",
+            "lotSize": 6240,
+            "shift": [
+                {
+                    "id": 1,
+                    "shiftEnd": "17:00:00",
+                    "createdAt": "2024-05-31T09:20:52.946Z",
+                    "deletedAt": null,
+                    "factoryId": 1,
+                    "shiftType": "DAY",
+                    "updatedAt": "2024-07-01T15:31:23.511Z",
+                    "shiftStart": "08:00:00",
+                    "finishSameDay": true
+                }
+            ],
+            "breakTime": 60,
+            "finished": false,
+            "finishedAt": null,
+            "mainIp": "10.10.20.243",
+            "pcsPerHour": 750,
+            "addLot": true,
+            "specialAdd": false,
+            "data": null,
+            "createdAt": "2024-12-18T01:40:07.438Z",
+            "updatedAt": "2024-12-18T01:40:07.438Z",
+            "deletedAt": null,
+            "line": {
+                "id": 2,
+                "factoryId": 1,
+                "floorId": null,
+                "name": "L002",
+                "isActive": true,
+                "position": null,
+                "createdAt": "2024-12-09T05:28:41.888Z",
+                "updatedAt": "2024-12-09T05:28:41.888Z",
+                "deletedAt": null,
+                "lineMachine": [
+                    {
+                        "id": 4,
+                        "lineId": 2,
+                        "machineId": 4,
+                        "isMain": true,
+                        "createdAt": "2024-12-09T05:28:41.895Z",
+                        "updatedAt": "2024-12-09T05:28:41.895Z",
+                        "deletedAt": null,
+                        "machine": {
+                            "id": 4,
+                            "factoryId": 1,
+                            "processId": 1,
+                            "name": "เครื่องของเหลว",
+                            "ip": "10.10.20.243",
+                            "createdAt": "2024-12-09T05:28:41.870Z",
+                            "updatedAt": "2024-12-09T05:28:41.870Z",
+                            "deletedAt": null
+                        }
+                    }
+                ]
+            },
+            "product": {
+                "id": 2,
+                "factoryId": 1,
+                "lineId": 2,
+                "productNo": "9-CP75322",
+                "name": "Juicy Watermelon Shower Gel 490",
+                "ct": "10.00",
+                "pcsPerHour": 750,
+                "manPower": 4,
+                "erpPrefix": "JUICY",
+                "createdAt": "2024-12-09T05:28:41.905Z",
+                "updatedAt": "2024-12-09T05:28:41.905Z",
+                "deletedAt": null
+            },
+            "planningDefect": [
+                {
+                    "id": 52,
+                    "planningId": 62,
+                    "defectId": 12,
+                    "amount": 13,
+                    "percent": null,
+                    "createdAt": "2024-12-18T09:32:00.027Z",
+                    "updatedAt": "2024-12-18T09:32:00.027Z",
+                    "deletedAt": null
+                }
+            ],
+            "planningBreakdown": [
+                {
+                    "id": 27,
+                    "planningId": 62,
+                    "breakdownId": 11,
+                    "secondAmount": null,
+                    "percent": null,
+                    "createdAt": "2024-12-18T07:00:10.017Z",
+                    "updatedAt": "2024-12-18T07:00:10.017Z",
+                    "deletedAt": null
+                }
+            ]
+        },
+        {
+            "id": 67,
+            "factoryId": 1,
+            "lineId": 2,
+            "productId": 2,
+            "planDate": "2024-12-19T00:00:00.000Z",
+            "mo": "20241219002",
+            "lotNo": "20241219002",
+            "lotSize": 6240,
+            "shift": [
+                {
+                    "id": 1,
+                    "shiftEnd": "17:00:00",
+                    "createdAt": "2024-05-31T09:20:52.946Z",
+                    "deletedAt": null,
+                    "factoryId": 1,
+                    "shiftType": "DAY",
+                    "updatedAt": "2024-07-01T15:31:23.511Z",
+                    "shiftStart": "08:00:00",
+                    "finishSameDay": true
+                }
+            ],
+            "breakTime": 60,
+            "finished": false,
+            "finishedAt": null,
+            "mainIp": "10.10.20.243",
+            "pcsPerHour": 750,
+            "addLot": true,
+            "specialAdd": false,
+            "data": null,
+            "createdAt": "2024-12-19T00:10:00.111Z",
+            "updatedAt": "2024-12-19T00:10:00.111Z",
+            "deletedAt": null,
+            "line": {
+                "id": 2,
+                "factoryId": 1,
+                "floorId": null,
+                "name": "L002",
+                "isActive": true,
+                "position": null,
+                "createdAt": "2024-12-09T05:28:41.888Z",
+                "updatedAt": "2024-12-09T05:28:41.888Z",
+                "deletedAt": null,
+                "lineMachine": [
+                    {
+                        "id": 4,
+                        "lineId": 2,
+                        "machineId": 4,
+                        "isMain": true,
+                        "createdAt": "2024-12-09T05:28:41.895Z",
+                        "updatedAt": "2024-12-09T05:28:41.895Z",
+                        "deletedAt": null,
+                        "machine": {
+                            "id": 4,
+                            "factoryId": 1,
+                            "processId": 1,
+                            "name": "เครื่องของเหลว",
+                            "ip": "10.10.20.243",
+                            "createdAt": "2024-12-09T05:28:41.870Z",
+                            "updatedAt": "2024-12-09T05:28:41.870Z",
+                            "deletedAt": null
+                        }
+                    }
+                ]
+            },
+            "product": {
+                "id": 2,
+                "factoryId": 1,
+                "lineId": 2,
+                "productNo": "9-CP75322",
+                "name": "Juicy Watermelon Shower Gel 490",
+                "ct": "10.00",
+                "pcsPerHour": 750,
+                "manPower": 4,
+                "erpPrefix": "JUICY",
+                "createdAt": "2024-12-09T05:28:41.905Z",
+                "updatedAt": "2024-12-09T05:28:41.905Z",
+                "deletedAt": null
+            },
+            "planningDefect": [],
+            "planningBreakdown": []
+        },
+        {
+            "id": 33,
+            "factoryId": 1,
+            "lineId": 3,
+            "productId": 4,
+            "planDate": "2024-12-16T00:00:00.000Z",
+            "mo": "20241216003",
+            "lotNo": "20241216003",
+            "lotSize": 8160,
+            "shift": [
+                {
+                    "id": 1,
+                    "shiftEnd": "17:00:00",
+                    "createdAt": "2024-05-31T09:20:52.946Z",
+                    "deletedAt": null,
+                    "factoryId": 1,
+                    "shiftType": "DAY",
+                    "updatedAt": "2024-07-01T15:31:23.511Z",
+                    "shiftStart": "08:00:00",
+                    "finishSameDay": true
+                }
+            ],
+            "breakTime": 60,
+            "finished": false,
+            "finishedAt": null,
+            "mainIp": "10.10.20.246",
+            "pcsPerHour": 1050,
+            "addLot": false,
+            "specialAdd": false,
+            "data": null,
+            "createdAt": "2024-12-16T00:10:00.116Z",
+            "updatedAt": "2024-12-16T00:10:00.116Z",
+            "deletedAt": null,
+            "line": {
+                "id": 3,
+                "factoryId": 1,
+                "floorId": null,
+                "name": "L003",
+                "isActive": true,
+                "position": null,
+                "createdAt": "2024-12-09T05:28:41.888Z",
+                "updatedAt": "2024-12-09T05:28:41.888Z",
+                "deletedAt": null,
+                "lineMachine": [
+                    {
+                        "id": 7,
+                        "lineId": 3,
+                        "machineId": 7,
+                        "isMain": true,
+                        "createdAt": "2024-12-09T05:28:41.895Z",
+                        "updatedAt": "2024-12-09T05:28:41.895Z",
+                        "deletedAt": null,
+                        "machine": {
+                            "id": 7,
+                            "factoryId": 1,
+                            "processId": 1,
+                            "name": "NORDEN",
+                            "ip": "10.10.20.246",
+                            "createdAt": "2024-12-09T05:28:41.870Z",
+                            "updatedAt": "2024-12-09T05:28:41.870Z",
+                            "deletedAt": null
+                        }
+                    }
+                ]
+            },
+            "product": {
+                "id": 4,
+                "factoryId": 1,
+                "lineId": 3,
+                "productNo": "9-OP27419",
+                "name": "ORIENTAL BEAUTY MAGNOLIA DREAM BODY LOTION 400 ML.",
+                "ct": "10.00",
+                "pcsPerHour": 1050,
+                "manPower": 4,
+                "erpPrefix": "ORIENTAL",
+                "createdAt": "2024-12-09T05:28:41.905Z",
+                "updatedAt": "2024-12-12T06:24:13.009Z",
+                "deletedAt": null
+            },
+            "planningDefect": [
+                {
+                    "id": 42,
+                    "planningId": 33,
+                    "defectId": 15,
+                    "amount": 10,
+                    "percent": null,
+                    "createdAt": "2024-12-16T09:32:00.023Z",
+                    "updatedAt": "2024-12-16T09:32:00.023Z",
+                    "deletedAt": null
+                }
+            ],
+            "planningBreakdown": [
+                {
+                    "id": 23,
+                    "planningId": 33,
+                    "breakdownId": null,
+                    "secondAmount": null,
+                    "percent": null,
+                    "createdAt": "2024-12-16T07:00:10.021Z",
+                    "updatedAt": "2024-12-16T07:00:10.021Z",
+                    "deletedAt": null
+                }
+            ]
+        },
+        {
+            "id": 48,
+            "factoryId": 1,
+            "lineId": 3,
+            "productId": 4,
+            "planDate": "2024-12-17T00:00:00.000Z",
+            "mo": "20241217003",
+            "lotNo": "20241217003",
+            "lotSize": 8160,
+            "shift": [
+                {
+                    "id": 1,
+                    "shiftEnd": "17:00:00",
+                    "createdAt": "2024-05-31T09:20:52.946Z",
+                    "deletedAt": null,
+                    "factoryId": 1,
+                    "shiftType": "DAY",
+                    "updatedAt": "2024-07-01T15:31:23.511Z",
+                    "shiftStart": "08:00:00",
+                    "finishSameDay": true
+                }
+            ],
+            "breakTime": 60,
+            "finished": false,
+            "finishedAt": null,
+            "mainIp": "10.10.20.246",
+            "pcsPerHour": 1050,
+            "addLot": false,
+            "specialAdd": false,
+            "data": null,
+            "createdAt": "2024-12-17T00:10:00.099Z",
+            "updatedAt": "2024-12-17T00:10:00.099Z",
+            "deletedAt": null,
+            "line": {
+                "id": 3,
+                "factoryId": 1,
+                "floorId": null,
+                "name": "L003",
+                "isActive": true,
+                "position": null,
+                "createdAt": "2024-12-09T05:28:41.888Z",
+                "updatedAt": "2024-12-09T05:28:41.888Z",
+                "deletedAt": null,
+                "lineMachine": [
+                    {
+                        "id": 7,
+                        "lineId": 3,
+                        "machineId": 7,
+                        "isMain": true,
+                        "createdAt": "2024-12-09T05:28:41.895Z",
+                        "updatedAt": "2024-12-09T05:28:41.895Z",
+                        "deletedAt": null,
+                        "machine": {
+                            "id": 7,
+                            "factoryId": 1,
+                            "processId": 1,
+                            "name": "NORDEN",
+                            "ip": "10.10.20.246",
+                            "createdAt": "2024-12-09T05:28:41.870Z",
+                            "updatedAt": "2024-12-09T05:28:41.870Z",
+                            "deletedAt": null
+                        }
+                    }
+                ]
+            },
+            "product": {
+                "id": 4,
+                "factoryId": 1,
+                "lineId": 3,
+                "productNo": "9-OP27419",
+                "name": "ORIENTAL BEAUTY MAGNOLIA DREAM BODY LOTION 400 ML.",
+                "ct": "10.00",
+                "pcsPerHour": 1050,
+                "manPower": 4,
+                "erpPrefix": "ORIENTAL",
+                "createdAt": "2024-12-09T05:28:41.905Z",
+                "updatedAt": "2024-12-12T06:24:13.009Z",
+                "deletedAt": null
+            },
+            "planningDefect": [],
+            "planningBreakdown": []
+        },
+        {
+            "id": 63,
+            "factoryId": 1,
+            "lineId": 3,
+            "productId": 4,
+            "planDate": "2024-12-18T00:00:00.000Z",
+            "mo": "20241218003",
+            "lotNo": "20241218003",
+            "lotSize": 8160,
+            "shift": [
+                {
+                    "id": 1,
+                    "shiftEnd": "17:00:00",
+                    "createdAt": "2024-05-31T09:20:52.946Z",
+                    "deletedAt": null,
+                    "factoryId": 1,
+                    "shiftType": "DAY",
+                    "updatedAt": "2024-07-01T15:31:23.511Z",
+                    "shiftStart": "08:00:00",
+                    "finishSameDay": true
+                }
+            ],
+            "breakTime": 60,
+            "finished": false,
+            "finishedAt": null,
+            "mainIp": "10.10.20.246",
+            "pcsPerHour": 1050,
+            "addLot": false,
+            "specialAdd": false,
+            "data": null,
+            "createdAt": "2024-12-18T01:40:08.200Z",
+            "updatedAt": "2024-12-18T01:40:08.200Z",
+            "deletedAt": null,
+            "line": {
+                "id": 3,
+                "factoryId": 1,
+                "floorId": null,
+                "name": "L003",
+                "isActive": true,
+                "position": null,
+                "createdAt": "2024-12-09T05:28:41.888Z",
+                "updatedAt": "2024-12-09T05:28:41.888Z",
+                "deletedAt": null,
+                "lineMachine": [
+                    {
+                        "id": 7,
+                        "lineId": 3,
+                        "machineId": 7,
+                        "isMain": true,
+                        "createdAt": "2024-12-09T05:28:41.895Z",
+                        "updatedAt": "2024-12-09T05:28:41.895Z",
+                        "deletedAt": null,
+                        "machine": {
+                            "id": 7,
+                            "factoryId": 1,
+                            "processId": 1,
+                            "name": "NORDEN",
+                            "ip": "10.10.20.246",
+                            "createdAt": "2024-12-09T05:28:41.870Z",
+                            "updatedAt": "2024-12-09T05:28:41.870Z",
+                            "deletedAt": null
+                        }
+                    }
+                ]
+            },
+            "product": {
+                "id": 4,
+                "factoryId": 1,
+                "lineId": 3,
+                "productNo": "9-OP27419",
+                "name": "ORIENTAL BEAUTY MAGNOLIA DREAM BODY LOTION 400 ML.",
+                "ct": "10.00",
+                "pcsPerHour": 1050,
+                "manPower": 4,
+                "erpPrefix": "ORIENTAL",
+                "createdAt": "2024-12-09T05:28:41.905Z",
+                "updatedAt": "2024-12-12T06:24:13.009Z",
+                "deletedAt": null
+            },
+            "planningDefect": [
+                {
+                    "id": 51,
+                    "planningId": 63,
+                    "defectId": 12,
+                    "amount": 13,
+                    "percent": null,
+                    "createdAt": "2024-12-18T09:32:00.022Z",
+                    "updatedAt": "2024-12-18T09:32:00.022Z",
+                    "deletedAt": null
+                }
+            ],
+            "planningBreakdown": [
+                {
+                    "id": 29,
+                    "planningId": 63,
+                    "breakdownId": 11,
+                    "secondAmount": null,
+                    "percent": null,
+                    "createdAt": "2024-12-18T07:00:10.023Z",
+                    "updatedAt": "2024-12-18T07:00:10.023Z",
+                    "deletedAt": null
+                }
+            ]
+        },
+        {
+            "id": 69,
+            "factoryId": 1,
+            "lineId": 3,
+            "productId": 4,
+            "planDate": "2024-12-19T00:00:00.000Z",
+            "mo": "20241219003",
+            "lotNo": "20241219003",
+            "lotSize": 8160,
+            "shift": [
+                {
+                    "id": 1,
+                    "shiftEnd": "17:00:00",
+                    "createdAt": "2024-05-31T09:20:52.946Z",
+                    "deletedAt": null,
+                    "factoryId": 1,
+                    "shiftType": "DAY",
+                    "updatedAt": "2024-07-01T15:31:23.511Z",
+                    "shiftStart": "08:00:00",
+                    "finishSameDay": true
+                }
+            ],
+            "breakTime": 60,
+            "finished": false,
+            "finishedAt": null,
+            "mainIp": "10.10.20.246",
+            "pcsPerHour": 1050,
+            "addLot": false,
+            "specialAdd": false,
+            "data": null,
+            "createdAt": "2024-12-19T00:10:00.118Z",
+            "updatedAt": "2024-12-19T00:10:00.118Z",
+            "deletedAt": null,
+            "line": {
+                "id": 3,
+                "factoryId": 1,
+                "floorId": null,
+                "name": "L003",
+                "isActive": true,
+                "position": null,
+                "createdAt": "2024-12-09T05:28:41.888Z",
+                "updatedAt": "2024-12-09T05:28:41.888Z",
+                "deletedAt": null,
+                "lineMachine": [
+                    {
+                        "id": 7,
+                        "lineId": 3,
+                        "machineId": 7,
+                        "isMain": true,
+                        "createdAt": "2024-12-09T05:28:41.895Z",
+                        "updatedAt": "2024-12-09T05:28:41.895Z",
+                        "deletedAt": null,
+                        "machine": {
+                            "id": 7,
+                            "factoryId": 1,
+                            "processId": 1,
+                            "name": "NORDEN",
+                            "ip": "10.10.20.246",
+                            "createdAt": "2024-12-09T05:28:41.870Z",
+                            "updatedAt": "2024-12-09T05:28:41.870Z",
+                            "deletedAt": null
+                        }
+                    }
+                ]
+            },
+            "product": {
+                "id": 4,
+                "factoryId": 1,
+                "lineId": 3,
+                "productNo": "9-OP27419",
+                "name": "ORIENTAL BEAUTY MAGNOLIA DREAM BODY LOTION 400 ML.",
+                "ct": "10.00",
+                "pcsPerHour": 1050,
+                "manPower": 4,
+                "erpPrefix": "ORIENTAL",
+                "createdAt": "2024-12-09T05:28:41.905Z",
+                "updatedAt": "2024-12-12T06:24:13.009Z",
+                "deletedAt": null
+            },
+            "planningDefect": [],
+            "planningBreakdown": []
+        },
+        {
+            "id": 36,
+            "factoryId": 1,
+            "lineId": 4,
+            "productId": 3,
+            "planDate": "2024-12-16T00:00:00.000Z",
+            "mo": "20241216004",
+            "lotNo": "20241216004-2",
+            "lotSize": 4220,
+            "shift": [
+                {
+                    "id": 1,
+                    "shiftEnd": "17:00:00",
+                    "createdAt": "2024-12-09T05:28:41.924Z",
+                    "deletedAt": null,
+                    "factoryId": 1,
+                    "shiftType": "CUSTOM",
+                    "updatedAt": "2024-12-09T05:28:41.924Z",
+                    "shiftStart": "09:57:36",
+                    "finishSameDay": true
+                }
+            ],
+            "breakTime": 0,
+            "finished": false,
+            "finishedAt": null,
+            "mainIp": "10.10.20.249",
+            "pcsPerHour": 1800,
+            "addLot": false,
+            "specialAdd": true,
+            "data": null,
+            "createdAt": "2024-12-16T02:57:36.625Z",
+            "updatedAt": "2024-12-16T04:52:24.556Z",
+            "deletedAt": null,
+            "line": {
+                "id": 4,
+                "factoryId": 1,
+                "floorId": null,
+                "name": "L004",
+                "isActive": true,
+                "position": null,
+                "createdAt": "2024-12-09T05:28:41.888Z",
+                "updatedAt": "2024-12-09T05:28:41.888Z",
+                "deletedAt": null,
+                "lineMachine": [
+                    {
+                        "id": 10,
+                        "lineId": 4,
+                        "machineId": 10,
+                        "isMain": true,
+                        "createdAt": "2024-12-09T05:28:41.895Z",
+                        "updatedAt": "2024-12-09T05:28:41.895Z",
+                        "deletedAt": null,
+                        "machine": {
+                            "id": 10,
+                            "factoryId": 1,
+                            "processId": 1,
+                            "name": "เครื่องหยอด",
+                            "ip": "10.10.20.249",
+                            "createdAt": "2024-12-09T05:28:41.870Z",
+                            "updatedAt": "2024-12-12T07:32:35.309Z",
+                            "deletedAt": null
+                        }
+                    }
+                ]
+            },
+            "product": {
+                "id": 3,
+                "factoryId": 1,
+                "lineId": 4,
+                "productNo": "9-CP75078",
+                "name": "EVORY RETOUCH PORE MINIMIZING & OIL CONPRIMER 20 G.",
+                "ct": "10.00",
+                "pcsPerHour": 1800,
+                "manPower": 4,
+                "erpPrefix": "EVORY",
+                "createdAt": "2024-12-09T05:28:41.905Z",
+                "updatedAt": "2024-12-12T06:23:55.011Z",
+                "deletedAt": null
+            },
+            "planningDefect": [],
+            "planningBreakdown": []
+        },
+        {
+            "id": 49,
+            "factoryId": 1,
+            "lineId": 4,
+            "productId": 3,
+            "planDate": "2024-12-17T00:00:00.000Z",
+            "mo": "20241217004",
+            "lotNo": "20241217004",
+            "lotSize": 14400,
+            "shift": [
+                {
+                    "id": 1,
+                    "shiftEnd": "17:00:00",
+                    "createdAt": "2024-12-09T05:28:41.924Z",
+                    "deletedAt": null,
+                    "factoryId": 1,
+                    "shiftType": "DAY",
+                    "updatedAt": "2024-12-16T03:10:52.429Z",
+                    "shiftStart": "08:00:00",
+                    "finishSameDay": true
+                }
+            ],
+            "breakTime": 60,
+            "finished": false,
+            "finishedAt": null,
+            "mainIp": "10.10.20.249",
+            "pcsPerHour": 1800,
+            "addLot": false,
+            "specialAdd": false,
+            "data": null,
+            "createdAt": "2024-12-17T00:10:00.102Z",
+            "updatedAt": "2024-12-17T06:06:23.683Z",
+            "deletedAt": null,
+            "line": {
+                "id": 4,
+                "factoryId": 1,
+                "floorId": null,
+                "name": "L004",
+                "isActive": true,
+                "position": null,
+                "createdAt": "2024-12-09T05:28:41.888Z",
+                "updatedAt": "2024-12-09T05:28:41.888Z",
+                "deletedAt": null,
+                "lineMachine": [
+                    {
+                        "id": 10,
+                        "lineId": 4,
+                        "machineId": 10,
+                        "isMain": true,
+                        "createdAt": "2024-12-09T05:28:41.895Z",
+                        "updatedAt": "2024-12-09T05:28:41.895Z",
+                        "deletedAt": null,
+                        "machine": {
+                            "id": 10,
+                            "factoryId": 1,
+                            "processId": 1,
+                            "name": "เครื่องหยอด",
+                            "ip": "10.10.20.249",
+                            "createdAt": "2024-12-09T05:28:41.870Z",
+                            "updatedAt": "2024-12-12T07:32:35.309Z",
+                            "deletedAt": null
+                        }
+                    }
+                ]
+            },
+            "product": {
+                "id": 3,
+                "factoryId": 1,
+                "lineId": 4,
+                "productNo": "9-CP75078",
+                "name": "EVORY RETOUCH PORE MINIMIZING & OIL CONPRIMER 20 G.",
+                "ct": "10.00",
+                "pcsPerHour": 1800,
+                "manPower": 4,
+                "erpPrefix": "EVORY",
+                "createdAt": "2024-12-09T05:28:41.905Z",
+                "updatedAt": "2024-12-12T06:23:55.011Z",
+                "deletedAt": null
+            },
+            "planningDefect": [
+                {
+                    "id": 50,
+                    "planningId": 49,
+                    "defectId": 12,
+                    "amount": 13,
+                    "percent": null,
+                    "createdAt": "2024-12-17T12:09:30.184Z",
+                    "updatedAt": "2024-12-17T12:09:30.184Z",
+                    "deletedAt": null
+                }
+            ],
+            "planningBreakdown": []
+        },
+        {
+            "id": 64,
+            "factoryId": 1,
+            "lineId": 4,
+            "productId": 3,
+            "planDate": "2024-12-18T00:00:00.000Z",
+            "mo": "20241218004",
+            "lotNo": "20241218004",
+            "lotSize": 14400,
+            "shift": [
+                {
+                    "id": 1,
+                    "shiftEnd": "17:00:00",
+                    "createdAt": "2024-05-31T09:20:52.946Z",
+                    "deletedAt": null,
+                    "factoryId": 1,
+                    "shiftType": "DAY",
+                    "updatedAt": "2024-07-01T15:31:23.511Z",
+                    "shiftStart": "08:00:00",
+                    "finishSameDay": true
+                }
+            ],
+            "breakTime": 60,
+            "finished": false,
+            "finishedAt": null,
+            "mainIp": "10.10.20.249",
+            "pcsPerHour": 1800,
+            "addLot": false,
+            "specialAdd": false,
+            "data": null,
+            "createdAt": "2024-12-18T01:40:09.248Z",
+            "updatedAt": "2024-12-18T01:40:09.248Z",
+            "deletedAt": null,
+            "line": {
+                "id": 4,
+                "factoryId": 1,
+                "floorId": null,
+                "name": "L004",
+                "isActive": true,
+                "position": null,
+                "createdAt": "2024-12-09T05:28:41.888Z",
+                "updatedAt": "2024-12-09T05:28:41.888Z",
+                "deletedAt": null,
+                "lineMachine": [
+                    {
+                        "id": 10,
+                        "lineId": 4,
+                        "machineId": 10,
+                        "isMain": true,
+                        "createdAt": "2024-12-09T05:28:41.895Z",
+                        "updatedAt": "2024-12-09T05:28:41.895Z",
+                        "deletedAt": null,
+                        "machine": {
+                            "id": 10,
+                            "factoryId": 1,
+                            "processId": 1,
+                            "name": "เครื่องหยอด",
+                            "ip": "10.10.20.249",
+                            "createdAt": "2024-12-09T05:28:41.870Z",
+                            "updatedAt": "2024-12-12T07:32:35.309Z",
+                            "deletedAt": null
+                        }
+                    }
+                ]
+            },
+            "product": {
+                "id": 3,
+                "factoryId": 1,
+                "lineId": 4,
+                "productNo": "9-CP75078",
+                "name": "EVORY RETOUCH PORE MINIMIZING & OIL CONPRIMER 20 G.",
+                "ct": "10.00",
+                "pcsPerHour": 1800,
+                "manPower": 4,
+                "erpPrefix": "EVORY",
+                "createdAt": "2024-12-09T05:28:41.905Z",
+                "updatedAt": "2024-12-12T06:23:55.011Z",
+                "deletedAt": null
+            },
+            "planningDefect": [
+                {
+                    "id": 53,
+                    "planningId": 64,
+                    "defectId": 12,
+                    "amount": 13,
+                    "percent": null,
+                    "createdAt": "2024-12-18T09:32:00.029Z",
+                    "updatedAt": "2024-12-18T09:32:00.029Z",
+                    "deletedAt": null
+                }
+            ],
+            "planningBreakdown": [
+                {
+                    "id": 28,
+                    "planningId": 64,
+                    "breakdownId": 11,
+                    "secondAmount": null,
+                    "percent": null,
+                    "createdAt": "2024-12-18T07:00:10.021Z",
+                    "updatedAt": "2024-12-18T07:00:10.021Z",
+                    "deletedAt": null
+                }
+            ]
+        },
+        {
+            "id": 66,
+            "factoryId": 1,
+            "lineId": 4,
+            "productId": 3,
+            "planDate": "2024-12-19T00:00:00.000Z",
+            "mo": "20241219004",
+            "lotNo": "20241219004",
+            "lotSize": 14400,
+            "shift": [
+                {
+                    "id": 1,
+                    "shiftEnd": "17:00:00",
+                    "createdAt": "2024-05-31T09:20:52.946Z",
+                    "deletedAt": null,
+                    "factoryId": 1,
+                    "shiftType": "DAY",
+                    "updatedAt": "2024-07-01T15:31:23.511Z",
+                    "shiftStart": "08:00:00",
+                    "finishSameDay": true
+                }
+            ],
+            "breakTime": 60,
+            "finished": false,
+            "finishedAt": null,
+            "mainIp": "10.10.20.249",
+            "pcsPerHour": 1800,
+            "addLot": false,
+            "specialAdd": false,
+            "data": null,
+            "createdAt": "2024-12-19T00:10:00.107Z",
+            "updatedAt": "2024-12-19T00:10:00.107Z",
+            "deletedAt": null,
+            "line": {
+                "id": 4,
+                "factoryId": 1,
+                "floorId": null,
+                "name": "L004",
+                "isActive": true,
+                "position": null,
+                "createdAt": "2024-12-09T05:28:41.888Z",
+                "updatedAt": "2024-12-09T05:28:41.888Z",
+                "deletedAt": null,
+                "lineMachine": [
+                    {
+                        "id": 10,
+                        "lineId": 4,
+                        "machineId": 10,
+                        "isMain": true,
+                        "createdAt": "2024-12-09T05:28:41.895Z",
+                        "updatedAt": "2024-12-09T05:28:41.895Z",
+                        "deletedAt": null,
+                        "machine": {
+                            "id": 10,
+                            "factoryId": 1,
+                            "processId": 1,
+                            "name": "เครื่องหยอด",
+                            "ip": "10.10.20.249",
+                            "createdAt": "2024-12-09T05:28:41.870Z",
+                            "updatedAt": "2024-12-12T07:32:35.309Z",
+                            "deletedAt": null
+                        }
+                    }
+                ]
+            },
+            "product": {
+                "id": 3,
+                "factoryId": 1,
+                "lineId": 4,
+                "productNo": "9-CP75078",
+                "name": "EVORY RETOUCH PORE MINIMIZING & OIL CONPRIMER 20 G.",
+                "ct": "10.00",
+                "pcsPerHour": 1800,
+                "manPower": 4,
+                "erpPrefix": "EVORY",
+                "createdAt": "2024-12-09T05:28:41.905Z",
+                "updatedAt": "2024-12-12T06:23:55.011Z",
+                "deletedAt": null
+            },
+            "planningDefect": [],
+            "planningBreakdown": []
+        }
+    ],
+    "pagination": {
+        "page": "1",
+        "perPage": "20",
+        "totalCount": 52,
+        "totalPages": 3
+    }
+}

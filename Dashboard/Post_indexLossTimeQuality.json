@@ -1,0 +1,221 @@
+POST : http://ns.artroninnovative.co.th:8002/api/factory/1/dashboard/indexLossTimeQuality
+
+//ภายใน Body x-www-form-urlencoded
+{
+    "startDate":"2024-12-15",
+    "endDate":"2024-12-15"
+    
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ //Response Api
+
+ {
+    "status": "SUCCESS",
+    "result": {
+        "lossTime": {
+            "breakdown": [
+                {
+                    "id": [
+                        1
+                    ],
+                    "key": "Setting",
+                    "count": 15,
+                    "percent": 0.78125
+                },
+                {
+                    "id": [
+                        5,
+                        6,
+                        7,
+                        8,
+                        9
+                    ],
+                    "key": "Human loss",
+                    "count": 0,
+                    "percent": 0
+                },
+                {
+                    "id": [
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25
+                    ],
+                    "key": "Machine loss",
+                    "count": 0,
+                    "percent": 0
+                },
+                {
+                    "id": [
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35
+                    ],
+                    "key": "Tooling loss",
+                    "count": 0,
+                    "percent": 0
+                },
+                {
+                    "id": [
+                        2,
+                        3,
+                        4
+                    ],
+                    "key": "Other loss",
+                    "count": 0,
+                    "percent": 0
+                }
+            ],
+            "totalBreakdown": 173,
+            "plannedProductionTime": 1920,
+            "totalLossTimePercent": 9.010416666666666,
+            "totalGoodTimePercent": 90.98958333333333
+        },
+        "quality": {
+            "defect": [
+                {
+                    "id": 1,
+                    "name": "ขวดบุบ",
+                    "code": "F001",
+                    "count": 0,
+                    "percent": 0
+                },
+                {
+                    "id": 2,
+                    "name": "ปั้มหัก",
+                    "code": "F002",
+                    "count": 0,
+                    "percent": 0
+                },
+                {
+                    "id": 3,
+                    "name": "ปั้มหลุด",
+                    "code": "F003",
+                    "count": 0,
+                    "percent": 0
+                },
+                {
+                    "id": 4,
+                    "name": "หลอดยับ ซีลไม่ติด",
+                    "code": "F004",
+                    "count": 0,
+                    "percent": 0
+                },
+                {
+                    "id": 5,
+                    "name": "Lot ขาด",
+                    "code": "A001",
+                    "count": 0,
+                    "percent": 0
+                },
+                {
+                    "id": 6,
+                    "name": "Lot ไม่ตรงตำแหน่ง",
+                    "code": "A002",
+                    "count": 0,
+                    "percent": 0
+                },
+                {
+                    "id": 7,
+                    "name": "ติดฉลากเอียง",
+                    "code": "A003",
+                    "count": 0,
+                    "percent": 0
+                },
+                {
+                    "id": 8,
+                    "name": "ฉลากยับ",
+                    "code": "A004",
+                    "count": 0,
+                    "percent": 0
+                },
+                {
+                    "id": 9,
+                    "name": "ฉลากไม่ตรงหน้า",
+                    "code": "A005",
+                    "count": 0,
+                    "percent": 0
+                },
+                {
+                    "id": 10,
+                    "name": "ขวดเป็นรอยจากเครื่องทับ",
+                    "code": "A006",
+                    "count": 14,
+                    "percent": 0.043068971882114074
+                },
+                {
+                    "id": 11,
+                    "name": "ซิ้งค์แพ็ค 3 ขาด",
+                    "code": "A007",
+                    "count": 10,
+                    "percent": 0.03076355134436719
+                },
+                {
+                    "id": 12,
+                    "name": "ซิ้งค์แพ็ค 3 ติดกัน",
+                    "code": "A008",
+                    "count": 13,
+                    "percent": 0.03999261674767735
+                },
+                {
+                    "id": 13,
+                    "name": "ซิ้งค์ไม่เรียบ",
+                    "code": "A009",
+                    "count": 0,
+                    "percent": 0
+                },
+                {
+                    "id": 14,
+                    "name": "ซิ้งแตก",
+                    "code": "A010",
+                    "count": 0,
+                    "percent": 0
+                },
+                {
+                    "id": 15,
+                    "name": "กล่องโหลขาด",
+                    "code": "A011",
+                    "count": 15,
+                    "percent": 0.046145327016550795
+                },
+                {
+                    "id": 16,
+                    "name": "ซิ้งค์แพ็คขาด",
+                    "code": "A012",
+                    "count": 0,
+                    "percent": 0
+                },
+                {
+                    "id": 17,
+                    "name": "ซิ้งค์แพ็คติดกัน",
+                    "code": "A013",
+                    "count": 0,
+                    "percent": 0
+                }
+            ],
+            "totalCount": 32506,
+            "totalDefectCount": 52,
+            "totalDefectPercent": 0.1599704669907094,
+            "totalGoodPartPercent": 99.84002953300929
+        }
+    }
+}
