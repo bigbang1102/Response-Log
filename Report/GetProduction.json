@@ -1,0 +1,115 @@
+{
+    "status": "SUCCESS",
+    "result": [
+        {
+            "lineId": 1,
+            "name": "L001",
+            "data": [
+                {
+                    "_comment": "http://ns.artroninnovative.co.th:8002/api/factory/1/report/getProduction",
+                    "start": "2024-12-15",
+                    "end": "2024-12-15",
+                    "ids": [
+                        1
+                    ]
+                },
+                {
+                    "hour": "2024-12-14T17:00:00.000Z",
+                    "totalCount": 0
+                },
+                {
+                    "hour": "2024-12-14T18:00:00.000Z",
+                    "totalCount": 0
+                },
+                {
+                    "hour": "2024-12-14T19:00:00.000Z",
+                    "totalCount": 0
+                },
+                {
+                    "hour": "2024-12-14T20:00:00.000Z",
+                    "totalCount": 0
+                },
+                {
+                    "hour": "2024-12-14T21:00:00.000Z",
+                    "totalCount": 0
+                },
+                {
+                    "hour": "2024-12-14T22:00:00.000Z",
+                    "totalCount": 0
+                },
+                {
+                    "hour": "2024-12-14T23:00:00.000Z",
+                    "totalCount": 0
+                },
+                {
+                    "hour": "2024-12-15T00:00:00.000Z",
+                    "totalCount": 0
+                },
+                {
+                    "hour": "2024-12-15T01:00:00.000Z",
+                    "totalCount": 118
+                },
+                {
+                    "hour": "2024-12-15T02:00:00.000Z",
+                    "totalCount": 250
+                },
+                {
+                    "hour": "2024-12-15T03:00:00.000Z",
+                    "totalCount": 244
+                },
+                {
+                    "hour": "2024-12-15T04:00:00.000Z",
+                    "totalCount": 238
+                },
+                {
+                    "hour": "2024-12-15T05:00:00.000Z",
+                    "totalCount": 0
+                },
+                {
+                    "hour": "2024-12-15T06:00:00.000Z",
+                    "totalCount": 228
+                },
+                {
+                    "hour": "2024-12-15T07:00:00.000Z",
+                    "totalCount": 0
+                },
+                {
+                    "hour": "2024-12-15T08:00:00.000Z",
+                    "totalCount": 252
+                },
+                {
+                    "hour": "2024-12-15T09:00:00.000Z",
+                    "totalCount": 246
+                },
+                {
+                    "hour": "2024-12-15T10:00:00.000Z",
+                    "totalCount": 0
+                },
+                {
+                    "hour": "2024-12-15T11:00:00.000Z",
+                    "totalCount": 0
+                },
+                {
+                    "hour": "2024-12-15T12:00:00.000Z",
+                    "totalCount": 0
+                },
+                {
+                    "hour": "2024-12-15T13:00:00.000Z",
+                    "totalCount": 0
+                },
+                {
+                    "hour": "2024-12-15T14:00:00.000Z",
+                    "totalCount": 0
+                },
+                {
+                    "hour": "2024-12-15T15:00:00.000Z",
+                    "totalCount": 0
+                },
+                {
+                    "hour": "2024-12-15T16:00:00.000Z",
+                    "totalCount": 0
+                }
+            ]
+        }
+    ]
+}
